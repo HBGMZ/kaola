@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/topNavStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/topMyStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/topContStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/footerStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/proDdetali/magnifyStyle.css" rel="stylesheet" type="text/css">
+    <script src="jq_text/jquery-1.12.0.js"></script>
+    <script>
+        $(function(){
+            $(".firstClass").mouseenter(function(){
+                $(this).parent().find("dd").show();
+                $(this).parent().find("dd").mouseenter(function(){
+                    $(this).show();
+                    var index = $(this).index("dd");
+                    $(".show").find("div").eq(index).show();
+                    $(".show").find("div").eq(index).siblings("div").hide();
+                })
+            })
+            $(".top_navAll").mouseleave(function(){
+                $(this).find("dd").hide();
+                $(".show").find("div").hide();
+            })
+            $(".personCenter").mouseover(function(){
+                $(".personSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".personCenter").mouseout(function(){
+                $(".personSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topService").mouseover(function(){
+                $(".serviceSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topService").mouseout(function(){
+                $(".serviceSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topMore").mouseover(function(){
+                $(".moreSub").show();
+
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topMore").mouseout(function(){
+                $(".moreSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+
+            $(".smallImg").mouseenter(function(){
+                $(".bigArea").show();
+            });
+            $(".smallImg").mouseleave(function(){
+                $(".bigArea").hide();
+            });
+            $(".magnifyLit").find("li").mouseenter(function(){
+               var  index=$(this).index();
+                $(".smallImg").find("img").eq(index).show().siblings().hide();
+
+                $(".bigImg").eq(index).show().siblings().hide();
+            })
+
+        })
+    </script>
+    <script>
+        $(function(){
+
+            var _smallImg = $(".smallImg"); //小图
+            var _smallArea = $(".smallArea"); //小区域
+            var _bigImg = $(".bigImg"); //大图
+            var _bigArea = $(".bigArea"); //大区域
+            _smallArea.width( _smallImg.width()/_bigImg.width() * _bigArea.width() );
+            _smallArea.height( _smallImg.height()/_bigImg.height() * _bigArea.height() );
+            var scale = _bigImg.width() / _smallImg.width();
+
+            _smallImg.mousemove(function(e){
+
+                _smallArea.show(); //显示小区域
+
+                //移动小区域, 跟随鼠标移动
+                var x = e.pageX - _smallImg.offset().left - _smallArea.width()/2;
+                var y = e.pageY - _smallImg.offset().top - _smallArea.height()/2;
+
+                //判断x不超出左边界,也不超出右边界
+                if (x < 0) {
+                    x = 0;
+                }
+                else if (x > _smallImg.width() - _smallArea.width()) {
+                    x = _smallImg.width() - _smallArea.width();
+                }
+
+                //判断y不超出上边界,也不超出下边界
+                if (y < 0) {
+                    y = 0;
+                }
+                else if (y > _smallImg.height() - _smallArea.height()) {
+                    y = _smallImg.height() - _smallArea.height();
+                }
+
+                _smallArea.css({left: x, top: y});
+
+                //移动大图
+                _bigImg.css({left: -x*scale, top: -y*scale});
+
+            })
+
+            //鼠标移出
+            _smallImg.mouseleave(function(){
+                _smallArea.hide(); //隐藏小区域
+            })
+
+        })
+    </script>
+    <style type="text/css">
+        .d_mid{
+            width: 1090px;
+            margin: 0 auto;
+        }
+        .addressOn{
+            height: 60px;
+            line-height: 60px;
+            font-size: 14px;
+            border-bottom: 1px solid #ccc;
+            color: #999;
+            font-weight: 500;
+
+        }
+        .addressLeft{
+            color: black;
+            font-weight: 500;
+
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="topMy">
+        <div class="topMy_cont">
+            <span>考拉欢迎你！</span>
+            <a href="#" id="login">登录&nbsp;|</a>
+            <a href="#" id="reg">免费注册</a>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <span class="phoneShop">手机考拉海购</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <ul class="top_right">
+                <li><a href="#" id="dailySign">每日签到</a> </li>
+                <li><a href="#">我的订单</a></li>
+                <li class="personCenter"><a href="#">个人中心<span class="subLogo"></span></a></li>
+                <li class="topService"><a href="#">客户服务<span  class="subLogo"></span></a></li>
+                <li><a href="#" id="gamePay">游戏充值</a></li>
+                <li><a href="#">消费者告知书</a></li>
+                <li class="topMore"><a href="#" id="top_rightMore">更多<span class="subLogo"></span></a></li>
+            </ul>
+
+            <ul class="personSub">
+                <li>我的优惠劵</li>
+                <li>我的考拉豆</li>
+                <li>账户安全</li>
+                <li>我的实名认证</li>
+                <li>我收藏的商品</li>
+                <li>我关注的品牌</li>
+                <li>售后管理</li>
+            </ul>
+            <ul class="serviceSub">
+                <li>联系客服</li>
+                <li>帮助中心</li>
+            </ul>
+            <ul class="moreSub">
+                <li>收藏本站</li>
+                <li>新浪微博</li>
+                <li>微信公众号</li>
+                <li>易信公众号</li>
+                <li>招商合作</li>
+                <li>考拉招聘</li>
+            </ul>
+        </div>
+    </div>
+    <div class="top_cont">
+        <h1><img src="imgS/nav_imgs/logoALL.png"/></h1>
+        <input type="text" placeholder="宝宝秋装" class="searchInput">
+        <h2 class="searchLogo"><img src="imgS/nav_imgs/search.png"/></h2>
+        <div class="topCar"><a href="#">购物车</a></div>
+        <div class="searchList">
+            <ul>
+                <li>卫生巾</li>
+                <li>护手霜</li>
+                <li>男包</li>
+                <li>周生生</li>
+                <li>bikkle</li>
+                <li>奥尔滨</li>
+                <li>咖啡</li>
+                <li>贝亲</li>
+                <li>兰芝</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="topNav">
+        <dl class="top_navAll">
+            <dt  class="firstClass"><a href="#" class="firstClassA"><img src="imgS/nav_imgs/class/allClass.png"><span>所有分类</span></a></dt>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkplg1m99_40_40.png"><span>母婴儿童&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpnez751_40_40.png"><span>美容彩妆&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpo5f994_40_40.png"><span>服饰鞋包&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpow3285_40_40.png"><span>家居生活&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpq2ue80_40_40.png"><span>营养保健&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpr75617_40_40.png"><span>海外直邮&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpsh0e98_40_40.png"><span>数码家电&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkptd2291_40_40.png"><span>环球美食&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqsu18g169_40_40.png"><span>运动户外&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#" class="lastClass"><img src="imgS/nav_imgs/class/ir26dxt121_40_40.png"><span>水果生鲜&nbsp;&nbsp;&gt;</span></a></dd>
+        </dl>
+        <ul class="topNav_right">
+            <li class="firstPage"><a href="#">首页</a> </li>
+            <li><a href="#">今日限时购</a></li>
+            <li><a href="#">每日上新</a></li>
+            <li><a href="#">排行榜</a></li>
+            <li><a href="#">国家馆</a></li>
+        </ul>
+        <div class="show">
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="d_mid">
+    <h1 class="addressOn"><b class="addressLeft">网易考拉海购 </b> &gt;Merries 花王妙而舒 NB 90片/包 4包装 纸尿裤/尿不湿 </h1>
+    <div class="magnifyPart">
+        <div class="smallImg">
+            <img src="imgS/detail/diaperSmall/img01.jpg">
+            <img src="imgS/detail/diaperSmall/img02.jpg">
+            <img src="imgS/detail/diaperSmall/img03.jpg">
+            <img src="imgS/detail/diaperSmall/img04.jpg">
+            <div class="smallArea" ></div>
+        </div>
+        <div class="bigArea">
+            <img class="bigImg" src="imgS/detail/diaperBig/img01.jpg"  />
+            <img class="bigImg" src="imgS/detail/diaperBig/img02.jpg"  />
+            <img class="bigImg" src="imgS/detail/diaperBig/img03.jpg"  />
+            <img class="bigImg" src="imgS/detail/diaperBig/img04.jpg"  />
+        </div>
+    </div>
+    <ul class="magnifyLit">
+        <li><img src="imgS/detail/diaperLitPic/img01.jpg"></li>
+        <li><img src="imgS/detail/diaperLitPic/img02.jpg"></li>
+        <li><img src="imgS/detail/diaperLitPic/img03.jpg"></li>
+        <li><img src="imgS/detail/diaperLitPic/img04.jpg"></li>
+    </ul>
+    <div class="magRight">
+        <h6>日本|Merries 花王妙而舒</h6>
+        <h5><img src="imgS/detail/detail_09.png" ></h5>
+        <p class="detailTitel"><span>4包装</span> | Merries 花王妙而舒 NB 90片/包 4包装 纸尿裤/尿不湿 </p>
+        <h4>来自日本的纸尿裤，是受日本国人欢迎的纸尿裤品牌之一，花王纸尿裤注重通气性和柔软性，使用极细纤维柔软内衬棉，尿显精确，防漏护围设计，确保不含甲醛、不用燃料，控制PH值。</h4>
+        <h3 class="time"><img src="imgS/detail/time.png"></h3>
+        <div class="hotprice">
+            <span>抢购价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <i>￥304</i>
+            <h6>折合单包￥76</h6>
+            <h5>参考价 &nbsp; ¥596.00</h5>
+
+
+        </div>
+        <div class="choose">
+            <p>运费&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宁波 至 广东深圳市罗湖区订单实付满88元免运费</p>
+            <p>服务&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 本商品由 自营宁波保税1号仓 发货</p>
+            <p>税费&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本商品适用税率为11.9% 税费收取规则</p>
+            <p>数量&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;限购5件</p>
+
+        </div>
+        <div class="buy">
+            <button>立即抢购</button>
+            <button>加入购物车</button>
+            <h1>收藏</h1>
+        </div>
+        <p class="hint">提示：本商品不支持使用优惠卷</p>
+        <h2 class="starComment"><img src="imgS/detail/detail_37.png"></h2>
+
+
+
+    </div>
+
+</div>
+</body>
+</html>

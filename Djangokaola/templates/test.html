@@ -1,0 +1,13 @@
+function getUrlParams() {
+var paramsStr = window.location.search.substr(1); //ID=0
+var paramsArray = paramsStr.split("="); //["ID","0"]
+return paramsArray[1]; //返回的商品ID    0
+}
+
+
+//将当前商品的ID传值进商品详情
+$("#live_list_bottom li").on("click",function(){
+var index=$(this).index();
+var ID=$("#live_list_bottom li").eq(index).find("em").html();
+window.location.href="goods.html?ID="+ID;
+})

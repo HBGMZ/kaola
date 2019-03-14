@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考拉注册页</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="css/register.css"/>
+    <script src="jq_text/jquery-1.12.0.js"></script>
+    <script src="jq_text/register.js"></script>
+    <script src="jq_text/cookie.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+
+<div id="registerHeader">
+    <h1><a href="#"><img src="imgS/bg1.png" alt="" title="" /></a></h1>
+
+</div>
+
+
+<div id="registerCon">
+    <form class="registerRight" name="form1" method="" action="">
+        <div class="formHeader">
+            <h2>注册帐号</h2>
+            <div>已有帐号，<a href="kaolaLogin.html">去登录</a></div>
+        </div>
+        <p><input type="text" id="phoneNum" placeholder="请输入手机号码"/><span class="tip" id="phoneNumTip"></span></p>
+        <p><input type="password" id="pwd" maxlength="20" placeholder="请输入密码"/><span class="tip" id="pwdTip"></span></p>
+        <p><input type="password" id="rePwd" maxlength="20" placeholder="请输入再次输入密码"/><span class="tip" id="repwdTip"></span></p>
+        <p class="verifyCode">
+            <input type="text" id="verifyNum" class="verify" placeholder="请输入验证码"/>
+            <span id="verifyRandom">5681</span>
+            <b id="verifyTab">换一张</b>
+            <i id="verifyErrImg"></i>
+            <span class="tip" id="verifyCodeTip"></span>
+        </p>
+        <p>
+            <input type="text" id="verifySMS" class="verify" placeholder="短信校验码"/>
+            <input type="button" id="getVerifySMS" class="verifyBtn" value="获取短信校验码"/>
+        </p>
+        <div class="agreeInf">
+            <input id="agreenBtn" type="checkbox" checked="checked" />已阅读并同意<a href="#">《麦乐购注册协议及交易条款》</a>
+        </div>
+        <p><input id="registerNow" type="button" class="nowRegister" value="立即注册"/></p>
+        <p class="lastNotice">收不到短信? 请使用<a href="#">语音验证码</a></p>
+    </form>
+</div>
+
+
+
+
+
+</body>
+</html>

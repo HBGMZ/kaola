@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<title>网易考拉海淘</title>
+<link href="css/topNavStyle.css" rel="stylesheet" type="text/css">
+<link href="css/topMyStyle.css" rel="stylesheet" type="text/css">
+<link href="css/topContStyle.css" rel="stylesheet" type="text/css">
+<link href="css/contStyle.css" rel="stylesheet" type="text/css">
+<link href="css/loutiStyle.css" rel="stylesheet" type="text/css">
+<link href="css/productListStyle.css" rel="stylesheet" type="text/css">
+<link href="css/footerStyle.css" rel="stylesheet" type="text/css">
+<link href="opcacityPackage/css/jquery.arSlide.css" rel="stylesheet" type="text/css">
+<script src="jq_text/jquery-1.12.0.js"></script>
+<script src="opcacityPackage/js/jquery.arSlide.js"></script>
+<style type="text/css">
+    .proId{
+        display: none;
+    }
+</style>
+
+<script>
+    jQuery(function($){
+        $('.focus').arSlide();
+    });
+</script>
+<script type="text/javascript">
+    $(function(){
+        $(".firstClass").mouseenter(function(){
+            $(this).parent().find("dd").show();
+            $(this).parent().find("dd").mouseenter(function(){
+                $(this).show();
+                var index = $(this).index("dd");
+                $(".show").find("div").eq(index).show();
+                $(".show").find("div").eq(index).siblings("div").hide();
+            })
+        })
+        $(".top_navAll").mouseleave(function(){
+            $(this).find("dd").hide();
+            $(".show").find("div").hide();
+        })
+        $(".personCenter").mouseover(function(){
+            $(".personSub").show();
+            $(this).find("a").css({"borderRight":"1px solid #fff"});
+            $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+            $(this).css({"background":"white"});
+
+        })
+        $(".personCenter").mouseout(function(){
+            $(".personSub").hide();
+            $(this).css({"background":"#f2f2f2"});
+            $(this).find("a").css({"borderRight":"1px solid #666"});
+            $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+        })
+        $(".topService").mouseover(function(){
+            $(".serviceSub").show();
+            $(this).find("a").css({"borderRight":"1px solid #fff"});
+            $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+            $(this).css({"background":"white"});
+
+        })
+        $(".topService").mouseout(function(){
+            $(".serviceSub").hide();
+            $(this).css({"background":"#f2f2f2"});
+            $(this).find("a").css({"borderRight":"1px solid #666"});
+            $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+        })
+        $(".topMore").mouseover(function(){
+            $(".moreSub").show();
+
+            $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+            $(this).css({"background":"white"});
+
+        })
+        $(".topMore").mouseout(function(){
+            $(".moreSub").hide();
+            $(this).css({"background":"#f2f2f2"});
+            $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+        })
+        $(".babyNav").find("li").mouseenter(function(){
+            $(this).find("span").show();
+            var index = $(this).index();
+            $(this).parent(".babyNav").next(".diaperSub").children("div").eq(index).show()
+                    .siblings().hide();
+
+        })
+        $(".babyNav").find("li").mouseleave(function(){
+            $(this).find("span").hide();
+        })
+        var $nav = $('#loutiNav');
+        // 1、给window绑定scroll事件
+        $(window).on('scroll',function(){
+            // 获取滚动过的距离
+            var scrollTop = $(window).scrollTop();
+            // 1）当滚动到一定距离时，显示导航条
+            if(scrollTop >= 635){
+                $nav.show();
+            }else{
+                $nav.hide();
+            }
+        })
+        // 2、点击导航条，滚动到相应的楼层
+        $nav.on('click','li',function(){
+            // 3、返回顶部
+            if($(this).hasClass('last')){
+                // $(window).scrollTop(0);
+                $('html,body').animate({scrollTop:0});
+                return;
+            }
+            if(!$(this).hasClass('loutiCar')){
+                var index = $(this).index();
+                var scrollTop = $(".cont").children("div").eq(index-1).offset().top;
+
+                // $(window).scrollTop(scrollTop);
+                $('html,body').animate({scrollTop:scrollTop});
+            }
+        });
+        //商品列表
+        for(var k=0;k<9;k++) {
+            (function(k){
+                $.getJSON("productDiaper.json", function (data) {
+                    for (var i = 0; i < data.length; i++) {
+                        var bigProDiv = $("<div class='diaProBig'></div>");
+                        $(".diaperSub").eq(k).append(bigProDiv);
+                        var arr = data[i];
+                        for (var j = 0; j < arr.length; j++) {
+                            var minProDiv = $("<div class='diaProMin'></div>");
+                            bigProDiv.append(minProDiv);
+                            var obj = arr[j]; //每个商品的信息
+                            var img = $("<img  src=" + obj.img + ">");//创节点
+                            minProDiv.append(img);//追加显示
+                            //立即抢购
+                            var imBuy = $("<p class='imBuy'>立即抢购</p>");
+                            minProDiv.append(imBuy);
+                            var rmbLogo = $("<span class='rmbLogo'>￥</span>");
+                            minProDiv.append(rmbLogo);
+                            var allPrice = $("<span class='allPrice'>" + obj.allPrice + "</span>");
+                            minProDiv.append(allPrice);
+                            var capacity = $("<span class='capacity'>" + obj.capacity + "</span>");
+                            minProDiv.append(capacity);
+                            var word = $("<span class='word'>" + obj.word + "</span>");
+                            minProDiv.append(word);
+                            var adWord = $("<span class='adWord'>" + obj.adWord + "</span>");
+                            minProDiv.append(adWord);
+                            var perPrice = $("<p class='perPrice'>" + obj.perPrice + "</p>");
+                            minProDiv.append(perPrice);
+                            var oldPrice = $("<s class='oldPrice'>" + obj.oldPrice + "</s>");
+                            minProDiv.append(oldPrice);
+                            if(obj.id){
+                                var proId=$("<p class='proId'>" + obj.id + "</p>");
+                                minProDiv.append(proId);
+                            }
+
+                            if (!(obj.disoff == "no")) {
+                                var disoff = $("<p class='disoff'>" + obj.disoff + "</p>");
+                                minProDiv.append(disoff);
+                            }
+                            var comment = $("<h5><img class='comment' src='imgS/cont/productList/comment.png'></h5> ");
+                            minProDiv.append(comment);
+                        }
+
+                    };
+
+                });
+
+            })(k);
+
+        }
+        $(".diaperSub").on("mouseenter", ".diaProMin", function () {
+            $(this).find(".comment").show();
+
+
+        });
+        $(".diaperSub").on("mouseleave", ".diaProMin", function () {
+            $(this).find(".comment").hide();
+
+
+        });
+        $(".diaperSub").on("click", ".diaProMin", function () {
+            var goodId=$(this).find(".proId").html();
+            console.log(goodId);
+            location.href = "productDetail011.html?id="+goodId;
+
+        });
+
+
+
+        $(".focus").mouseenter(function(){
+           $(".prev").show();
+            $(".next").show();
+        });
+        $(".focus").mouseleave(function(){
+            $(".prev").hide();
+            $(".next").hide();
+        });
+
+
+
+    })
+
+</script>
+
+
+
+
+
+</head>
+<body>
+<div class="top">
+    <div class="topMy">
+    <div class="topMy_cont">
+        <span>考拉欢迎你！</span>
+        <a href="../kaolaLogin.html" id="login">登录&nbsp;|</a>
+        <a href="../regsterKaola.html" id="reg">免费注册</a>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <span class="phoneShop">手机考拉海购</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <ul class="top_right">
+            <li><a href="#" id="dailySign">每日签到</a> </li>
+            <li><a href="#">我的订单</a></li>
+            <li class="personCenter"><a href="#">个人中心<span class="subLogo"></span></a></li>
+            <li class="topService"><a href="#">客户服务<span  class="subLogo"></span></a></li>
+            <li><a href="#" id="gamePay">游戏充值</a></li>
+            <li><a href="#">消费者告知书</a></li>
+            <li class="topMore"><a href="#" id="top_rightMore">更多<span class="subLogo"></span></a></li>
+        </ul>
+
+        <ul class="personSub">
+            <li>我的优惠劵</li>
+            <li>我的考拉豆</li>
+            <li>账户安全</li>
+            <li>我的实名认证</li>
+            <li>我收藏的商品</li>
+            <li>我关注的品牌</li>
+            <li>售后管理</li>
+        </ul>
+        <ul class="serviceSub">
+            <li>联系客服</li>
+            <li>帮助中心</li>
+        </ul>
+        <ul class="moreSub">
+            <li>收藏本站</li>
+            <li>新浪微博</li>
+            <li>微信公众号</li>
+            <li>易信公众号</li>
+            <li>招商合作</li>
+            <li>考拉招聘</li>
+        </ul>
+    </div>
+</div>
+    <div class="top_cont">
+        <h1><img src="imgS/nav_imgs/logoALL.png"/></h1>
+        <input type="text" placeholder="宝宝秋装" class="searchInput">
+        <h2 class="searchLogo"><img src="imgS/nav_imgs/search.png"/></h2>
+        <div class="topCar"><a href="#">购物车</a></div>
+        <div class="searchList">
+            <ul>
+                <li>卫生巾</li>
+                <li>护手霜</li>
+                <li>男包</li>
+                <li>周生生</li>
+                <li>bikkle</li>
+                <li>奥尔滨</li>
+                <li>咖啡</li>
+                <li>贝亲</li>
+                <li>兰芝</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="topNav">
+        <dl class="top_navAll">
+            <dt  class="firstClass"><a href="#" class="firstClassA"><img src="imgS/nav_imgs/class/allClass.png"><span>所有分类</span></a></dt>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkplg1m99_40_40.png"><span>母婴儿童&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpnez751_40_40.png"><span>美容彩妆&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpo5f994_40_40.png"><span>服饰鞋包&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpow3285_40_40.png"><span>家居生活&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpq2ue80_40_40.png"><span>营养保健&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpr75617_40_40.png"><span>海外直邮&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpsh0e98_40_40.png"><span>数码家电&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkptd2291_40_40.png"><span>环球美食&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqsu18g169_40_40.png"><span>运动户外&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#" class="lastClass"><img src="imgS/nav_imgs/class/ir26dxt121_40_40.png"><span>水果生鲜&nbsp;&nbsp;&gt;</span></a></dd>
+        </dl>
+        <ul class="topNav_right">
+            <li class="firstPage"><a href="#">首页</a> </li>
+            <li><a href="#">今日限时购</a></li>
+            <li><a href="#">每日上新</a></li>
+            <li><a href="#">排行榜</a></li>
+            <li><a href="#">国家馆</a></li>
+        </ul>
+        <div class="show">
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="focus">
+    <div class="big-wrap">
+        <ul>
+            <li><img src="imgS/carouselPic/istp0w9c32_1920_400.jpg"></li>
+            <li><img src="imgS/carouselPic/iszenkxh16_1920_400.jpg"></li>
+            <li><img src="imgS/carouselPic/iszeo7kq87_1920_400.jpg"></li>
+            <li><img src="imgS/carouselPic/iszeoaup69_1920_400.gif"></li>
+            <li><img src="imgS/carouselPic/iszeol6480_1920_400.jpg"></li>
+            <li><img src="imgS/carouselPic/iszep1bt35_1920_400.jpg"></li>
+            <li><img src="imgS/carouselPic/iszepdxf40_1920_400.jpg"></li>
+        </ul>
+    </div>
+    <div class="small-wrap">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+<div class="cont">
+    <h1 class="discount"><img src="imgS/cont/discountPaper.png"/></h1>
+    <!-- 第一个分类母婴-->
+    <div class="contBaby">
+        <h2><span class="headline">母婴儿童</span><i>宝宝的营养师、服装设计</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_01.png"></h3>
+        <ul class="babyNav">
+            <li>纸尿裤<span></span></li>
+            <li>奶粉馆<span></span></li>
+            <li>辅食保健<span></span></li>
+            <li>童装童鞋<span></span></li>
+            <li>孕妈专区<span></span></li>
+        </ul>
+        <div class="diaperSub"></div>
+
+        <div class="moreGoods">
+            <h4>更多母婴品牌好货&gt;</h4>
+        </div>
+    </div>
+    <!-- 第二个分类美妆-->
+    <div class="contBaby">
+        <h2><span>美容彩妆</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_02.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多美妆品牌好货&gt;</h4>
+        </div>
+    </div>
+    <!-- 第三个分类服饰-->
+    <div class="contBaby">
+        <h2><span>服饰鞋包</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_03.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多服饰品牌好货&gt;</h4>
+        </div>
+    </div>
+    <!-- 第四个分类家居-->
+    <div class="contBaby">
+        <h2><span>家居生活</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_06.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多服饰品牌好货&gt;</h4>
+        </div>
+    </div>
+
+    <!-- 第五个分类营养保健-->
+    <div class="contBaby">
+        <h2><span>营养保健</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_08.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多服饰品牌好货&gt;</h4>
+        </div>
+    </div>
+    <!-- 第6个海外直邮-->
+    <div class="contBaby">
+        <h2><span>海外直邮</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_10.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多服饰品牌好货&gt;</h4>
+        </div>
+    </div>
+
+    <!-- 第7个分类数码-->
+    <div class="contBaby">
+        <h2><span>数码家电</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_12.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多服饰品牌好货&gt;</h4>
+        </div>
+    </div>
+
+    <!-- 第 8个分类美食-->
+    <div class="contBaby">
+        <h2><span>环球美食</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_14.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多服饰品牌好货&gt;</h4>
+        </div>
+    </div>
+
+    <!-- 第9个分类网易-->
+    <div class="contBaby">
+        <h2><span>网易严选</span><i>你与十八岁，只差十五分钟</i><b></b></h2>
+        <h3><img src="imgS/cont/calssBigPic/classpic_16.png"></h3>
+        <ul class="babyNav">
+            <li>美容护肤<span></span></li>
+            <li>彩妆工具<span></span></li>
+            <li>身体护理<span></span></li>
+            <li>魅力香蕉<span></span></li>
+            <li>男士护肤<span></span></li>
+        </ul>
+       <div class="diaperSub">
+        </div>
+        <div class="moreGoods">
+            <h4>更多网易严选精品&gt;</h4>
+        </div>
+    </div>
+    <div class="lastDiscount">
+        <img src="imgS/footer/footer_03.png">
+    </div>
+</div>
+<div id="loutiNav">
+    <ul>
+        <li class="loutiCar"><h1>购物车</h1><p class="carNum">0</p></li>
+        <li class="floor">母婴儿童</li>
+        <li>美容彩妆</li>
+        <li>服饰鞋包</li>
+        <li>家居生活</li>
+        <li>营养保健</li>
+        <li>海外直销</li>
+        <li>数码家电</li>
+        <li>环球美食</li>
+        <li>网易严选</li>
+        <li class="last">TOP</li>
+    </ul>
+</div>
+<div class="footer">
+
+    <ul class="adv_logo">
+            <li><h2><img src="imgS/footer/footer_07.png"></h2>
+                <h3>100%正品</h3>
+                <h4>全球精选&nbsp;正品保障</h4>
+            </li>
+            <li><h2><img src="imgS/footer/footer_09.png"></h2>
+                <h3>100%正品</h3>
+                <h4>全球精选&nbsp;正品保障</h4>
+            </li>
+            <li><h2><img src="imgS/footer/footer_11.png"></h2>
+                <h3>100%正品</h3>
+                <h4>全球精选&nbsp;正品保障</h4>
+            </li>
+            <li><h2><img src="imgS/footer/footer_13.png"></h2>
+                <h3>100%正品</h3>
+                <h4>全球精选&nbsp;正品保障</h4>
+            </li>
+        </ul>
+
+    <div class="adv_cont">
+        <div class="adv_contLeft">
+            <h1><img src="imgS/footer/footer_20.png"></h1>
+            <span>关注我们</span>
+            <h2><img src="imgS/footer/footer_27.png"></h2>
+        </div>
+        <div class="adv_contMid">
+            <dl>
+                <dt><a href="#">考拉保障</a></dt>
+                <dd><a href="#" class="footer_title">正品保障</a></dd>
+                <dd><a href="#">廉正监督</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">新手指南</a></dt>
+                <dd><a href="#"  class="footer_title">购物流程</a></dd>
+                <dd><a href="#">支付方式</a></dd>
+                <dd><a href="#">通关税费</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">售后服务</a></dt>
+                <dd><a href="#"  class="footer_title">退货流程</a></dd>
+                <dd><a href="#">退货政策</a></dd>
+                <dd><a href="#">通关税费</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">物流配送</a></dt>
+                <dd><a href="#"  class="footer_title">配送方式</a></dd>
+                <dd><a href="#">配送服务</a></dd>
+                <dd><a href="#">运费标准</a></dd>
+                <dd><a href="#">物流跟踪</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">关于我们</a></dt>
+                <dd><a href="#"   class="footer_title">联系我们</a></dd>
+                <dd><a href="#">招商合作</a></dd>
+                <dd><a href="#">运费标准</a></dd>
+                <dd><a href="#">物流跟踪</a></dd>
+            </dl>
+        </div>
+        <div class="adv_contRight">
+            <h4><img src="imgS/footer/footer_23.png"></h4>
+             <span>扫描下载手机版</span>
+        </div>
+    </div>
+    <div class="footer_last">
+        <p class="footer_word">About NetEase-公司简介-联系方法-友情链接-招聘信息-客户服务-隐私政策-网络营销-网站地图-网易考拉海购</p>
+        <h1 class="policeLogo">&nbsp;浙公网安备&nbsp;33010002000066号&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：浙B2-20090185-3 网络文化经营许可证：浙网文[2016]0155-055号 网易公司版权所有@1997-2016</h1>
+        <h2 class="lastLogo"><img src="imgS/footer/footer_36.png"> </h2>
+
+    </div>
+
+</div>
+</body>
+</html>

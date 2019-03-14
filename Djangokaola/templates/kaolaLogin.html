@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>麦乐购-登录</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link rel="stylesheet" type="text/css" href="css/register.css"/>
+    <script src="jq_text/jquery-1.12.0.js"></script>
+
+    <script src="jq_text/register.js"></script>
+    <script src="jq_text/cookie.js"></script>
+</head>
+<body>
+
+
+<div id="registerHeader">
+    <h1><a href="#"><img src="imgS/bg1.png" alt="" title="" /></a></h1>
+
+</div>
+<div id="registerCon">
+    <form class="registerRight login" name="form1" method="" action="">
+        <div class="formHeader">
+            <h2>登录</h2>
+            <div><a href="regsterKaola.html">免费快速注册</a></div>
+        </div>
+        <p><input type="text" id="loginName" class="userName" placeholder="手机号码/邮箱/用户名"/><span class="tip" id="phoneNumTip"></span></p>
+        <p><input type="password" id="loginPwd" class="pwd" placeholder="密码"/><span class="tip" id="pwdTip"></span></p>
+        <p class="verifyCode">
+            <input type="text" id="verifyNum" class="verify" placeholder="请输入验证码"/>
+            <span id="verifyRandom">5681</span>
+            <b id="verifyTab">换一张</b>
+            <span class="tip" id="verifyCodeTip"></span>
+        </p>
+        <div class="forgetPwd">
+            <a href="#">忘记密码？</a></div>
+        <p><input type="button" id="login" class="nowRegister" value="登录"/></p>
+
+    </form>
+</div>
+
+
+</body>
+</html>

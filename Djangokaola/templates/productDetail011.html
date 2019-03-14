@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/topNavStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/topMyStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/topContStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/footerStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/proDdetali/magnifyStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/proDdetali/magnifyRightStyle.css" rel="stylesheet" type="text/css">
+    <script src="jq_text/jquery-1.12.0.js"></script>
+    <script src="jq_text/jquery.cookie.js"></script>
+    <script>
+        $(function(){
+            $(".firstClass").mouseenter(function(){
+                $(this).parent().find("dd").show();
+                $(this).parent().find("dd").mouseenter(function(){
+                    $(this).show();
+                    var index = $(this).index("dd");
+                    $(".show").find("div").eq(index).show();
+                    $(".show").find("div").eq(index).siblings("div").hide();
+                })
+            })
+            $(".top_navAll").mouseleave(function(){
+                $(this).find("dd").hide();
+                $(".show").find("div").hide();
+            })
+            $(".personCenter").mouseover(function(){
+                $(".personSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".personCenter").mouseout(function(){
+                $(".personSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topService").mouseover(function(){
+                $(".serviceSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topService").mouseout(function(){
+                $(".serviceSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topMore").mouseover(function(){
+                $(".moreSub").show();
+
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topMore").mouseout(function(){
+                $(".moreSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+
+            $(".smallImg").mouseenter(function(){
+                $(".bigArea").show();
+            });
+            $(".smallImg").mouseleave(function(){
+                $(".bigArea").hide();
+            });
+            $(".magnifyLit").find("li").mouseenter(function(){
+               var  index=$(this).index();
+                $(".smallImg").find("img").eq(index).show().siblings().hide();
+
+                $(".bigImg").eq(index).show().siblings().hide();
+            })
+
+        })
+    </script>
+    <script>
+        $(function(){
+
+            var _smallImg = $(".smallImg"); //小图
+            var _smallArea = $(".smallArea"); //小区域
+            var _bigImg = $(".bigImg"); //大图
+            var _bigArea = $(".bigArea"); //大区域
+            _smallArea.width( _smallImg.width()/_bigImg.width() * _bigArea.width() );
+            _smallArea.height( _smallImg.height()/_bigImg.height() * _bigArea.height() );
+            var scale = _bigImg.width() / _smallImg.width();
+
+            _smallImg.mousemove(function(e){
+
+                _smallArea.show(); //显示小区域
+
+                //移动小区域, 跟随鼠标移动
+                var x = e.pageX - _smallImg.offset().left - _smallArea.width()/2;
+                var y = e.pageY - _smallImg.offset().top - _smallArea.height()/2;
+
+                //判断x不超出左边界,也不超出右边界
+                if (x < 0) {
+                    x = 0;
+                }
+                else if (x > _smallImg.width() - _smallArea.width()) {
+                    x = _smallImg.width() - _smallArea.width();
+                }
+
+                //判断y不超出上边界,也不超出下边界
+                if (y < 0) {
+                    y = 0;
+                }
+                else if (y > _smallImg.height() - _smallArea.height()) {
+                    y = _smallImg.height() - _smallArea.height();
+                }
+
+                _smallArea.css({left: x, top: y});
+
+                //移动大图
+                _bigImg.css({left: -x*scale, top: -y*scale});
+
+            })
+
+            //鼠标移出
+            _smallImg.mouseleave(function(){
+                _smallArea.hide(); //隐藏小区域
+            })
+
+        })
+    </script>
+    <style type="text/css">
+    #number{
+         display: none;
+     }
+    </style>
+    <script>
+        $(function(){
+            function getUrlParams() {
+                var paramsStr = window.location.search.substr(1); //ID=0
+                var paramsArray = paramsStr.split("="); //["ID","0"]
+                return paramsArray[1]; //返回的商品ID    0
+            };
+
+            $.getJSON("productDiaper.json", function (data) {
+                for (var i = 0; i < data.length; i++) {
+                    var arr = data[i];
+                    for (var j = 0; j < arr.length; j++) {
+                        var ID = getUrlParams();
+                        console.log(ID);
+                        var obj = arr[j];
+                        if(obj.id){
+                            if(obj.id == ID){
+
+                               var number=$("<p id='number'>"+obj.num+"</p>");
+                                number.insertBefore($(".elseProduct"));
+                                var name= $("<p class='detailTitel'><span>"+obj.capacity+"</span> |"+obj.name+"</p>");
+                                name.insertBefore($(".intro"));
+                                console.log(obj.allPrice);
+                                var allPrice=$("<i>￥<span id='allPrice'>" +obj.allPrice+"</span></i>");
+                                allPrice.insertBefore($(".delPerPrice"));
+                                $(".smallImg").find("img").eq(0).attr("src",obj.smallImg1);
+                                $(".smallImg").find("img").eq(1).attr("src",obj.smallImg2);
+                                $(".smallImg").find("img").eq(2).attr("src",obj.smallImg3);
+                                $(".smallImg").find("img").eq(3).attr("src",obj.smallImg4);
+                                $(".bigImg").eq(0).attr("src",obj.bigImg1);
+                                $(".bigImg").eq(1).attr("src",obj.bigImg2);
+                                $(".bigImg").eq(2).attr("src",obj.bigImg3);
+                                $(".bigImg").eq(3).attr("src",obj.bigImg4);
+                                $(".magnifyLit").find("img").eq(0).attr("src",obj.detailImg1);
+                                $(".magnifyLit").find("img").eq(1).attr("src",obj.detailImg2);
+                                $(".magnifyLit").find("img").eq(2).attr("src",obj.detailImg3);
+                                $(".magnifyLit").find("img").eq(3).attr("src",obj.detailImg4);
+                                //加入购物车
+                                (function(index){
+                                    $(".plusToCar").click(function() {
+                                        var goodsID = getUrlParams();
+                                        var goodsNnm=$(this).parents(".d_mid").find("#number").html();
+                                        var goodsImg = $(this).parents(".d_mid").find(".magnifyLit").find("li").eq(0).find("img").attr("src");
+                                        var goodName = $(this).parents(".magRight").find(".detailTitel").text();
+                                        console.log(goodName);
+                                        var goodPrice = $(this).parents(".magRight").find(".delPerPrice").prev().find("#allPrice").html();
+
+                                        //创建一个商品对象数组 存放多个商品对象
+                                        var goodsList = $.cookie("cart") ? JSON.parse($.cookie("cart")) : [];
+                                        var isExists = false;
+                                        for(var i = 0; i < goodsList.length; i++) {
+                                            if(goodsID == goodsList[i].id) {
+                                                goodsList[i].num++;
+                                                isExists = true;
+                                            }
+                                        }
+                                        if(!isExists) {
+                                            //将商品属性放进一个对象
+                                            var goods = {
+                                                "id": goodsID,
+                                                "name": goodName,
+                                                "img": goodsImg,
+                                                "price": goodPrice,
+                                                "num":goodsNnm+1
+                                            }
+                                            goodsList.push(goods);
+                                            console.log(goods.price);
+                                        }
+                                        //将这个商品对象用cookie存储
+                                        $.cookie("cart", JSON.stringify(goodsList), {
+                                            expires: 22,
+                                            path: "/"
+                                        });
+                                        console.log($.cookie("cart"));
+                                    })
+                                })(i);
+
+                                $(".topCar").on("click",function(){
+                                            location.href = "shopCarKaola.html";
+                                        }
+                                )
+                                $("#clearCart").click(function(){
+                                    //删除cookie
+                                    $.cookie("cart", "", {expires:0, path:"/"});
+                                })
+
+                            }
+                        }
+
+
+                    }
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="top">
+    <div class="topMy">
+        <div class="topMy_cont">
+            <span>考拉欢迎你！</span>
+            <a href="#" id="login">登录&nbsp;|</a>
+            <a href="#" id="reg">免费注册</a>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <span class="phoneShop">手机考拉海购</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <ul class="top_right">
+                <li><a href="#" id="dailySign">每日签到</a> </li>
+                <li><a href="#">我的订单</a></li>
+                <li class="personCenter"><a href="#">个人中心<span class="subLogo"></span></a></li>
+                <li class="topService"><a href="#">客户服务<span  class="subLogo"></span></a></li>
+                <li><a href="#" id="gamePay">游戏充值</a></li>
+                <li><a href="#">消费者告知书</a></li>
+                <li class="topMore"><a href="#" id="top_rightMore">更多<span class="subLogo"></span></a></li>
+            </ul>
+
+            <ul class="personSub">
+                <li>我的优惠劵</li>
+                <li>我的考拉豆</li>
+                <li>账户安全</li>
+                <li>我的实名认证</li>
+                <li>我收藏的商品</li>
+                <li>我关注的品牌</li>
+                <li>售后管理</li>
+            </ul>
+            <ul class="serviceSub">
+                <li>联系客服</li>
+                <li>帮助中心</li>
+            </ul>
+            <ul class="moreSub">
+                <li>收藏本站</li>
+                <li>新浪微博</li>
+                <li>微信公众号</li>
+                <li>易信公众号</li>
+                <li>招商合作</li>
+                <li>考拉招聘</li>
+            </ul>
+        </div>
+    </div>
+    <div class="top_cont">
+        <h1><img src="imgS/nav_imgs/logoALL.png"/></h1>
+        <input type="text" placeholder="宝宝秋装" class="searchInput">
+        <h2 class="searchLogo"><img src="imgS/nav_imgs/search.png"/></h2>
+        <div class="topCar"><a href="#">购物车</a></div>
+        <div class="searchList">
+            <ul>
+                <li>卫生巾</li>
+                <li>护手霜</li>
+                <li>男包</li>
+                <li>周生生</li>
+                <li>bikkle</li>
+                <li>奥尔滨</li>
+                <li>咖啡</li>
+                <li>贝亲</li>
+                <li>兰芝</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="topNav">
+        <dl class="top_navAll">
+            <dt  class="firstClass"><a href="#" class="firstClassA"><img src="imgS/nav_imgs/class/allClass.png"><span>所有分类</span></a></dt>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkplg1m99_40_40.png"><span>母婴儿童&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpnez751_40_40.png"><span>美容彩妆&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpo5f994_40_40.png"><span>服饰鞋包&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpow3285_40_40.png"><span>家居生活&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpq2ue80_40_40.png"><span>营养保健&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpr75617_40_40.png"><span>海外直邮&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkpsh0e98_40_40.png"><span>数码家电&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqkptd2291_40_40.png"><span>环球美食&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#"><img src="imgS/nav_imgs/class/iqsu18g169_40_40.png"><span>运动户外&nbsp;&nbsp;&gt;</span></a></dd>
+            <dd><a href="#" class="lastClass"><img src="imgS/nav_imgs/class/ir26dxt121_40_40.png"><span>水果生鲜&nbsp;&nbsp;&gt;</span></a></dd>
+        </dl>
+        <ul class="topNav_right">
+            <li class="firstPage"><a href="#">首页</a> </li>
+            <li><a href="#">今日限时购</a></li>
+            <li><a href="#">每日上新</a></li>
+            <li><a href="#">排行榜</a></li>
+            <li><a href="#">国家馆</a></li>
+        </ul>
+        <div class="show">
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+            <div class="baby1">
+                <img src="imgS/nav_imgs/navShow1.png">
+            </div>
+            <div class="baby2">
+                <img src="imgS/nav_imgs/navShow2.png">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="d_mid">
+    <h1 class="addressOn"><b class="addressLeft">网易考拉海购 </b> &gt;Merries 花王妙而舒 NB 90片/包 4包装 纸尿裤/尿不湿</h1>
+    <div class="magnifyPart">
+        <div class="smallImg">
+            <img src="imgS/detail/dia12Small/img1.jpg">
+            <img src="imgS/detail/dia12Small/img2.jpg">
+            <img src="imgS/detail/dia12Small/img3.jpg">
+            <img src="imgS/detail/dia12Small/img4.jpg">
+
+            <div class="smallArea" ></div>
+        </div>
+        <div class="bigArea">
+            <img class="bigImg" src="imgS/detail/dia12Big/img1.jpg"/>
+            <img class="bigImg" src="imgS/detail/dia12Big/img2.jpg"/>
+            <img class="bigImg" src="imgS/detail/dia12Big/img3.jpg" />
+            <img class="bigImg" src="imgS/detail/dia12Big/img4.jpg"/>
+
+        </div>
+    </div>
+
+    <div class="magRight">
+
+        <h6 class="proName">日本|Merries 花王妙而舒</h6>
+        <h5 class="sellLogo"><img src="imgS/detail/detail_09.png" ></h5>
+
+        <h4 class="intro">深受日本妈妈推崇的尿裤之王！原装进口，专为9-14千克宝宝设计。空气般丝滑材质，轻柔贴身！超强吸收力，一瞬间的事儿！360度弹力腰围，宝宝活动更自如！全面干爽，细心呵护，宝宝的贴身好伴侣！</h4>
+        <h3 class="time"><img src="imgS/detail/time.png"></h3>
+        <div class="hotprice">
+            <span>抢购价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+            <h6 class="delPerPrice">折合单包￥88</h6>
+            <h5 class="rP">参考价 &nbsp; ¥596.00</h5>
+
+
+        </div>
+        <div class="choose">
+            <p>运费&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宁波 至 广东深圳市罗湖区订单实付满88元免邮费</p>
+            <p>服务&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本商品由自营宁波保税1号仓发货</p>
+            <p>税费&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本商品适用税率为11.9% 税费收取规则</p>
+            <p class="buyNum">数量&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img  class="buyNumLogo" src="imgS/detail/buyNum.png">
+                <span class="limitNum" >限购5件</span>
+            </p>
+
+        </div>
+        <div class="buy">
+            <button class="imeBuy">立即抢购</button>
+            <button class="plusToCar"><img  class="delCarLogo" src="imgS/detail/detail_17.png">&nbsp;&nbsp;&nbsp;加入购物车</button>
+            <h1 class="collect"><img  class="collectLogo" src="imgS/detail/detail_20.png"> 收藏</h1>
+        </div>
+        <p class="hint">提示：本商品不支持使用优惠卷</p>
+        <h2 class="starComment"><img   src="imgS/detail/detail_37.png"></h2>
+        <div class="commentCont">
+            <p>小***妈&nbsp;&nbsp;&nbsp;01.28<br/>
+                一直在网易买 正品 这次连包装箱都配上花王原装的了 给个赞</p>
+        </div>
+    </div>
+    <ul class="magnifyLit">
+        <li><img src="imgS/detail/dia12Lit/img1.jpg"></li>
+        <li><img src="imgS/detail/dia12Lit/img2.jpg"></li>
+        <li><img src="imgS/detail/dia12Lit/img3.jpg"></li>
+        <li><img src="imgS/detail/dia12Lit/img4.jpg"></li>
+
+    </ul>
+    <p class="elseProduct">
+        <span style="font-size: 20px;font-weight: 700">相关推荐</span>购买了该商品的人还买了这些
+    </p>
+    <h1>
+        <img src="imgS/detail/elseProPic.png">
+        <button id="clearCart">清除</button>
+    </h1>
+
+</div>
+<div class="footer">
+
+    <ul class="adv_logo">
+        <li><h2><img src="imgS/footer/footer_07.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+        <li><h2><img src="imgS/footer/footer_09.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+        <li><h2><img src="imgS/footer/footer_11.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+        <li><h2><img src="imgS/footer/footer_13.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+    </ul>
+
+    <div class="adv_cont">
+        <div class="adv_contLeft">
+            <h1><img src="imgS/footer/footer_20.png"></h1>
+            <span>关注我们</span>
+            <h2><img src="imgS/footer/footer_27.png"></h2>
+        </div>
+        <div class="adv_contMid">
+            <dl>
+                <dt><a href="#">考拉保障</a></dt>
+                <dd><a href="#" class="footer_title">正品保障</a></dd>
+                <dd><a href="#">廉正监督</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">新手指南</a></dt>
+                <dd><a href="#"  class="footer_title">购物流程</a></dd>
+                <dd><a href="#">支付方式</a></dd>
+                <dd><a href="#">通关税费</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">售后服务</a></dt>
+                <dd><a href="#"  class="footer_title">退货流程</a></dd>
+                <dd><a href="#">退货政策</a></dd>
+                <dd><a href="#">通关税费</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">物流配送</a></dt>
+                <dd><a href="#"  class="footer_title">配送方式</a></dd>
+                <dd><a href="#">配送服务</a></dd>
+                <dd><a href="#">运费标准</a></dd>
+                <dd><a href="#">物流跟踪</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">关于我们</a></dt>
+                <dd><a href="#"   class="footer_title">联系我们</a></dd>
+                <dd><a href="#">招商合作</a></dd>
+                <dd><a href="#">运费标准</a></dd>
+                <dd><a href="#">物流跟踪</a></dd>
+            </dl>
+        </div>
+        <div class="adv_contRight">
+            <h4><img src="imgS/footer/footer_23.png"></h4>
+            <span>扫描下载手机版</span>
+        </div>
+    </div>
+    <div class="footer_last">
+        <p class="footer_word">About NetEase-公司简介-联系方法-友情链接-招聘信息-客户服务-隐私政策-网络营销-网站地图-网易考拉海购</p>
+        <h1 class="policeLogo">&nbsp;浙公网安备&nbsp;33010002000066号&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：浙B2-20090185-3 网络文化经营许可证：浙网文[2016]0155-055号 网易公司版权所有@1997-2016</h1>
+        <h2 class="lastLogo"><img src="imgS/footer/footer_36.png"> </h2>
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/topMyStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/footerStyle.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .top_cont{
+            background: white;
+            height:60px;
+            width: 1090px;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 10px;
+        }
+        .proId{display: none}
+        .carCont{
+            width: 1090px;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 10px;
+        }
+        .carCont_head{
+            height: 50px;
+            background: orange;
+
+        }
+        #li1{
+            position: relative;
+            left: -32px;
+
+        }
+        .carCont_head li{
+            float: left;
+            margin: 10px 63px;
+        }
+        .buyProCont{
+            height: 100px;
+            background: #fffbf0;
+            border: 1px solid #eaeaea;
+            position: relative;
+            margin-top: 10px;
+        }
+        .buyProCont li{
+            float: left;
+            margin: 10px 62px;
+        }
+        .buyImg{
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            left:120px;
+        }
+        .buyName{
+            width:136px;
+            position: absolute;
+            left:150px;
+        }
+        .prePay{
+            position: relative;
+            left:73px;
+        }
+        .proNum{
+
+            position: relative;
+            left:121px;
+        }
+        .proMoney{
+            position: relative;
+            left:140px;
+        }
+        .del{
+            position: relative;
+            left:196px;
+        }
+        .emptyCar{display: none;height: 30px;margin: 0 auto;width: 1090px;text-align: center}
+        .emptyCar a{
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+
+
+
+    </style>
+    <script src="jq_text/jquery-1.12.0.js"></script>
+    <script src="jq_text/jquery.cookie.js"></script>
+    <script>
+        $(function(){
+            $(".personCenter").mouseover(function(){
+                $(".personSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".personCenter").mouseout(function(){
+                $(".personSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topService").mouseover(function(){
+                $(".serviceSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topService").mouseout(function(){
+                $(".serviceSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topMore").mouseover(function(){
+                $(".moreSub").show();
+
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topMore").mouseout(function(){
+                $(".moreSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+        })
+    </script>
+    <script>
+        $(function(){
+
+            var goodsList = $.cookie("cart");
+            if (goodsList) {
+                goodsList = JSON.parse(goodsList);
+                //console.log(goodsList);
+                for (var i=0; i<goodsList.length; i++) {
+
+                    var goods = goodsList[i]; //每个商品
+                    var proCont=$("<ul class='buyProCont'></ul>");
+                    proCont.appendTo( $(".buyProduct") );
+
+                    var allChose=$("<li ><input  name='fruit' class='choseThis' type='checkbox'/>勾选</li>");
+                    allChose.appendTo( proCont );
+                    var proImg=$(" <li><img class='buyImg' src="+goods.img+"></li>");
+                    proImg.appendTo( proCont );
+                    var proName=$("<li class='buyName'>" + goods.name + "</li>");
+                    proName.appendTo( proCont );
+                    var proMoney=$("<li class='prePay'>￥" + goods.price + "</li>");
+                    proMoney.appendTo( proCont );
+                    var proNumber=$("<li class='proNum'>" + goods.num + "</li>");
+                    proNumber.appendTo( proCont );
+                    var proThisPay=1;
+                    var proThisPay=(goods.price)*(goods.num);
+
+                    var proAllPay=$("<li class='proMoney'>"+proThisPay+"</li>");
+                    proAllPay.appendTo( proCont );
+                    var operate=$("<li class='del'>删除</li>");
+                    operate.appendTo( proCont );
+                    var id=$("<li class='proId'>"+goods.id+"</li>");
+                    id.appendTo( proCont );
+                }
+
+            }
+
+            $(".buyProduct").on("click",".del",function(){
+                /*var index=$(this).parent().index();
+                console.log(index);
+                $.cookie("cart", "goodsList.splice(index,1)", {expires:7, path:"/"});*/
+                var index=$(this).parent().index();
+                console.log(index);
+                var goodsList = $.cookie("cart");
+                goodsList = JSON.parse(goodsList);
+                goodsList.splice(index,1);
+                $.cookie("cart", JSON.stringify(goodsList), {
+                    expires: 22,
+                    path: "/"
+                });
+
+
+
+                if($(this).parent().parent().children().size()==1){
+                    $(this).parent().remove();
+                    $(".carCont").hide();
+                    $(".emptyCar").show();
+                }else{
+
+                    $(this).parent().remove();
+
+                }
+            })
+
+
+
+        })
+    </script>
+    <script>
+        $(function(){
+            $("[name='all']").click(function(){
+                var x=$("[name='all']").prop("checked")
+                console.log(x);
+                if(x){
+                    $("[name='fruit']").prop("checked",x)
+                }else{
+                    $("[name='fruit']").prop("checked",x)
+                }
+            })
+
+        })
+    </script>
+
+
+
+</head>
+<body>
+
+<div class="topMy">
+    <div class="topMy_cont">
+        <span>考拉欢迎你！</span>
+        <a href="#" id="login">登录&nbsp;|</a>
+        <a href="#" id="reg">免费注册</a>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <span class="phoneShop">手机考拉海购</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <ul class="top_right">
+            <li><a href="#" id="dailySign">每日签到</a> </li>
+            <li><a href="#">我的订单</a></li>
+            <li class="personCenter"><a href="#">个人中心<span class="subLogo"></span></a></li>
+            <li class="topService"><a href="#">客户服务<span  class="subLogo"></span></a></li>
+            <li><a href="#" id="gamePay">游戏充值</a></li>
+            <li><a href="#">消费者告知书</a></li>
+            <li class="topMore"><a href="#" id="top_rightMore">更多<span class="subLogo"></span></a></li>
+        </ul>
+
+        <ul class="personSub">
+            <li>我的优惠劵</li>
+            <li>我的考拉豆</li>
+            <li>账户安全</li>
+            <li>我的实名认证</li>
+            <li>我收藏的商品</li>
+            <li>我关注的品牌</li>
+            <li>售后管理</li>
+        </ul>
+        <ul class="serviceSub">
+            <li>联系客服</li>
+            <li>帮助中心</li>
+        </ul>
+        <ul class="moreSub">
+            <li>收藏本站</li>
+            <li>新浪微博</li>
+            <li>微信公众号</li>
+            <li>易信公众号</li>
+            <li>招商合作</li>
+            <li>考拉招聘</li>
+        </ul>
+    </div>
+</div>
+<div class="top_cont">
+    <h1><img src="imgS/nav_imgs/logoALL.png"/></h1>
+</div>
+<div class="emptyCar">
+    <a href="home/kaolaIndex.html">购物车为空，快去首页选购吧!</a>
+</div>
+<div class="carCont">
+    <ul class="carCont_head">
+        <li class="li0"><input name="all" class="quanBtn" type="checkbox"/>全选</li>
+        <li id="li1">商品信息</li>
+        <li class="li2">单价（元）</li>
+        <li class="li3">数量</li>
+        <li class="li4">金额（元）</li>
+        <li class="li5">操作</li>
+    </ul>
+
+    <div class="buyProduct">
+
+    </div>
+</div>
+<div class="footer">
+
+    <ul class="adv_logo">
+        <li><h2><img src="imgS/footer/footer_07.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+        <li><h2><img src="imgS/footer/footer_09.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+        <li><h2><img src="imgS/footer/footer_11.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+        <li><h2><img src="imgS/footer/footer_13.png"></h2>
+            <h3>100%正品</h3>
+            <h4>全球精选&nbsp;正品保障</h4>
+        </li>
+    </ul>
+
+    <div class="adv_cont">
+        <div class="adv_contLeft">
+            <h1><img src="imgS/footer/footer_20.png"></h1>
+            <span>关注我们</span>
+            <h2><img src="imgS/footer/footer_27.png"></h2>
+        </div>
+        <div class="adv_contMid">
+            <dl>
+                <dt><a href="#">考拉保障</a></dt>
+                <dd><a href="#" class="footer_title">正品保障</a></dd>
+                <dd><a href="#">廉正监督</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">新手指南</a></dt>
+                <dd><a href="#"  class="footer_title">购物流程</a></dd>
+                <dd><a href="#">支付方式</a></dd>
+                <dd><a href="#">通关税费</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">售后服务</a></dt>
+                <dd><a href="#"  class="footer_title">退货流程</a></dd>
+                <dd><a href="#">退货政策</a></dd>
+                <dd><a href="#">通关税费</a></dd>
+                <dd><a href="#">常见问题</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">物流配送</a></dt>
+                <dd><a href="#"  class="footer_title">配送方式</a></dd>
+                <dd><a href="#">配送服务</a></dd>
+                <dd><a href="#">运费标准</a></dd>
+                <dd><a href="#">物流跟踪</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">关于我们</a></dt>
+                <dd><a href="#"   class="footer_title">联系我们</a></dd>
+                <dd><a href="#">招商合作</a></dd>
+                <dd><a href="#">运费标准</a></dd>
+                <dd><a href="#">物流跟踪</a></dd>
+            </dl>
+        </div>
+        <div class="adv_contRight">
+            <h4><img src="imgS/footer/footer_23.png"></h4>
+            <span>扫描下载手机版</span>
+        </div>
+    </div>
+    <div class="footer_last">
+        <p class="footer_word">About NetEase-公司简介-联系方法-友情链接-招聘信息-客户服务-隐私政策-网络营销-网站地图-网易考拉海购</p>
+        <h1 class="policeLogo">&nbsp;浙公网安备&nbsp;33010002000066号&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：浙B2-20090185-3 网络文化经营许可证：浙网文[2016]0155-055号 网易公司版权所有@1997-2016</h1>
+        <h2 class="lastLogo"><img src="imgS/footer/footer_36.png"> </h2>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

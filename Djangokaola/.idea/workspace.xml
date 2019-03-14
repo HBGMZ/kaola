@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1827c019-49a7-4008-b6e0-9631a950a3fa" name="Default" comment="">
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/.gitattributes" afterPath="$USER_HOME$/Desktop/ecommerce_websit/.gitattributes" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/.gitignore" afterPath="$USER_HOME$/Desktop/ecommerce_websit/.gitignore" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/LICENSE" afterPath="$USER_HOME$/Desktop/ecommerce_websit/LICENSE" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/README.md" afterPath="$USER_HOME$/Desktop/ecommerce_websit/README.md" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/admin.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/admin.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/models.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/models.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/tests.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/tests.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/urls.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/urls.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/views.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/cart/views.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/admin.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/admin.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/migrations/0001_initial.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/migrations/0001_initial.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/models.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/models.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/search_indexes.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/search_indexes.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/tests.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/tests.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/urls.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/urls.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/views.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/goods/views.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/admin.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/admin.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/alipay_public_key.example.pem" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/alipay_public_key.example.pem" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/app_private_key.example.pem" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/app_private_key.example.pem" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/migrations/0001_initial.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/migrations/0001_initial.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/migrations/0002_auto_20180309_0839.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/migrations/0002_auto_20180309_0839.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/models.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/models.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/tests.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/tests.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/urls.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/urls.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/views.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/order/views.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/admin.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/admin.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/migrations/0001_initial.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/migrations/0001_initial.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/models.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/models.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/tasks.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/tasks.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/tests.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/tests.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/urls.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/urls.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/views.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/apps/user/views.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/__init__.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/__init__.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/celery.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/celery.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/celeryconfig.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/celeryconfig.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/tasks.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/celery_tasks/tasks.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/settings.example.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/settings.example.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/urls.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/urls.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/wsgi.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/wsgi.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/db/__init__.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/db/__init__.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/db/base_model.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/db/base_model.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/manage.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/manage.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/requirements.txt" afterPath="$USER_HOME$/Desktop/ecommerce_websit/requirements.txt" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/static/index.html" afterPath="$USER_HOME$/Desktop/ecommerce_websit/static/index.html" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/static/js/jquery-1.12.4.min.js" afterPath="$USER_HOME$/Desktop/ecommerce_websit/static/js/jquery-1.12.4.min.js" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/static/js/jquery-ui.min.js" afterPath="$USER_HOME$/Desktop/ecommerce_websit/static/js/jquery-ui.min.js" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/static/js/jquery.cookie.js" afterPath="$USER_HOME$/Desktop/ecommerce_websit/static/js/jquery.cookie.js" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/base_detail_list.html" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/base_detail_list.html" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/base_no_cart.html" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/base_no_cart.html" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/base_user_center.html" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/base_user_center.html" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/order_comment.html" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/order_comment.html" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/pay_result.html" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/pay_result.html" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/__init__.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/__init__.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/indexes/__init__.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/indexes/__init__.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/indexes/goods/__init__.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/indexes/goods/__init__.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/indexes/goods/goodssku_text.txt" afterPath="$USER_HOME$/Desktop/ecommerce_websit/templates/search/indexes/goods/goodssku_text.txt" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/__init__.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/__init__.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/fdfs/__init__.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/fdfs/__init__.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/fdfs/client.example.conf" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/fdfs/client.example.conf" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/fdfs/storage.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/fdfs/storage.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/mixin.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/mixin.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/views.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/views.py" />
+      <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/uwsgi.example.ini" afterPath="$USER_HOME$/Desktop/ecommerce_websit/uwsgi.example.ini" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/Python181AXF.iml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/Python181AXF.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources/f41f086b-d1ea-43fc-a853-7676edb00164.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources/f41f086b-d1ea-43fc-a853-7676edb00164.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/deployment.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/deployment.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/webServers.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/webServers.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/settings.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0002_nav.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0002_nav.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0003_mustbuy.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0003_mustbuy.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0004_shop.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0004_shop.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0005_mainshow.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0005_mainshow.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0006_foodtype.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0006_foodtype.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0007_goods.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0007_goods.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0008_auto_20190308_0144.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0008_auto_20190308_0144.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0009_user.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0009_user.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0010_cart.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0010_cart.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0011_order_ordergoods.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/migrations/0011_order_ordergoods.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/urls.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/dir/python1812axf.sql" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/dir/python1812axf.sql" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/dir/项目部署.md" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/dir/项目部署.md" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/manage.py" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/reqirement.txt" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/reqirement.txt" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/css/base.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/css/base.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/js/base.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/js/base.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/js/jquery.cookie.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/js/jquery.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/base/js/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/cart/css/cart.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/cart/css/cart.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/cart/js/cart.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/cart/js/cart.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/css/home.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/css/home.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/css/swiper.min.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/css/swiper.min.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/js/home.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/js/home.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/js/swiper.min.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/home/js/swiper.min.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/market/css/market.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/market/css/market.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/market/js/market.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/market/js/market.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/css/login.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/css/login.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/css/mine.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/css/mine.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/css/registe.css" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/css/registe.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/js/login.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/js/login.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/js/mine.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/js/mine.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/js/registerr.js" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/static/mine/js/registerr.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/base/base.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/base/base.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/cart/cart.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/cart/cart.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/cart/no-login.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/cart/no-login.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/market/market.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/market/market.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/mine/login.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/mine/login.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/mine/mine.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/mine/mine.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/mine/register.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/mine/register.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/order/orderdetail.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/order/orderdetail.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/order/orderlist.html" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/templates/order/orderlist.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/uwsgi.ini" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/uwsgi.ini" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/axf参考/文件/插入商品数据" afterPath="$PROJECT_DIR$/../Python1812/axf参考/文件/插入商品数据" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/axf参考/文件/插入数据" afterPath="$PROJECT_DIR$/../Python1812/axf参考/文件/插入数据" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/HelloDjango.iml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/HelloDjango.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/0c9a6e09-53be-424e-98f9-05176e552e20.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/0c9a6e09-53be-424e-98f9-05176e552e20.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/0c9a6e09-53be-424e-98f9-05176e552e20/storage_v2/_src_/schema/main.uQUzAA.meta" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/0c9a6e09-53be-424e-98f9-05176e552e20/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1b8ff778-9f92-4432-b132-5f75238d1d1d.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1b8ff778-9f92-4432-b132-5f75238d1d1d.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1b8ff778-9f92-4432-b132-5f75238d1d1d/storage_v2/_src_/schema/main.uQUzAA.meta" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1b8ff778-9f92-4432-b132-5f75238d1d1d/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1f9c8b5c-8291-4716-803c-d83452775f7f.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1f9c8b5c-8291-4716-803c-d83452775f7f.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1f9c8b5c-8291-4716-803c-d83452775f7f/storage_v2/_src_/schema/main.uQUzAA.meta" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/dataSources/1f9c8b5c-8291-4716-803c-d83452775f7f/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/markdown-navigator.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/markdown-navigator.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/HelloDjango/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/HelloDjango/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/HelloDjango/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/HelloDjango/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/HelloDjango/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/HelloDjango/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/Template/cart.html" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/Template/cart.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/migrations/0002_user.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/migrations/0002_user.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/models.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/views.py" afterPath="$PROJECT_DIR$/../Python1812/day01/HelloDjango/meituan/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day01/README.md" afterPath="$PROJECT_DIR$/../Python1812/day01/README.md" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/DjangoDay02.iml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/DjangoDay02.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources/493942eb-f6da-49c1-9f49-d4a442231de4.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources/493942eb-f6da-49c1-9f49-d4a442231de4.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources/493942eb-f6da-49c1-9f49-d4a442231de4/storage_v2/_src_/schema/main.uQUzAA.meta" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources/493942eb-f6da-49c1-9f49-d4a442231de4/storage_v2/_src_/schema/main.uQUzAA.meta" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources/bc946dfb-552c-48eb-8bb6-d9857ecf0424.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/dataSources/bc946dfb-552c-48eb-8bb6-d9857ecf0424.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/DjangoDay02/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/models.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/views.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/elema/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0002_student_s_test.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0002_student_s_test.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0003_auto_20190226_0813.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0003_auto_20190226_0813.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0004_auto_20190226_0827.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0004_auto_20190226_0827.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0005_auto_20190226_0829.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/migrations/0005_auto_20190226_0829.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/models.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/views.py" afterPath="$PROJECT_DIR$/../Python1812/day02/DjangoDay02/meituan/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/HelloDjango.iml" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/HelloDjango.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/HelloDjango/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/HelloDjango/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/HelloDjango/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/HelloDjango/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/HelloDjango/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/HelloDjango/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day02/HelloDjango/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/DjangDay03.iml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/DjangDay03.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/dataSources/56fec308-8f26-417e-a971-d2bf885bbd1a.xml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/dataSources/56fec308-8f26-417e-a971-d2bf885bbd1a.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/DjangDay03/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0002_auto_20190227_0258.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0002_auto_20190227_0258.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0003_auto_20190227_0607.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0003_auto_20190227_0607.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0004_auto_20190227_0611.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0004_auto_20190227_0611.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0005_auto_20190227_0614.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0005_auto_20190227_0614.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0006_grade_student.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0006_grade_student.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0007_auto_20190227_0707.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0007_auto_20190227_0707.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0008_auto_20190227_0805.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/migrations/0008_auto_20190227_0805.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/addgrade.html" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/addgrade.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/addperson.html" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/addperson.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/animal.html" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/animal.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/foreignkey.html" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/foreignkey.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/index.html" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/manytomany.html" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/manytomany.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/onetoone.html" afterPath="$PROJECT_DIR$/../Python1812/day03/DjangDay03/templates/onetoone.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/DjangoDay04.iml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/DjangoDay04.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/dataSources/1ad8d659-31b9-43db-ba7a-ef85bf1e4b78.xml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/dataSources/1ad8d659-31b9-43db-ba7a-ef85bf1e4b78.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/DjangoDay04/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/basedemo.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/basedemo.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/baseview.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/baseview.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/cart.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/cart.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/create_goods.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/create_goods.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/headview.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/headview.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/home.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/home.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/includedemo.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/includedemo.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/index.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/login.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/mine.html" afterPath="$PROJECT_DIR$/../Python1812/day04/DjangoDay04/templates/mine.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/DjangoDay05.iml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/DjangoDay05.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/dataSources/432e9b4e-4188-48fd-9207-a8369c1cedf9.xml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/dataSources/432e9b4e-4188-48fd-9207-a8369c1cedf9.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/DjangoDay05/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/migrations/0002_auto_20190301_0700.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/migrations/0002_auto_20190301_0700.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/index.html" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/login.html" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/postview.html" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/postview.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/register.html" afterPath="$PROJECT_DIR$/../Python1812/day05/DjangoDay05/templates/register.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/DjangoDay06.iml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/DjangoDay06.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/dataSources/edc74508-33d6-44a7-a8b7-e02793db8263.xml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/dataSources/edc74508-33d6-44a7-a8b7-e02793db8263.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/DjangoDay06/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/MyMiddleware/app/AppMiddleware.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/MyMiddleware/app/AppMiddleware.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/migrations/0002_user_token.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/migrations/0002_user_token.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/migrations/0003_user_icon.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/migrations/0003_user_icon.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/static/css/index.css" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/static/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/404.html" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/404.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/500.html" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/500.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/index.html" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/login.html" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/register.html" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/register.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/upfile.html" afterPath="$PROJECT_DIR$/../Python1812/day06/DjangoDay06/templates/upfile.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/DjangoDay07.iml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/DjangoDay07.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/dataSources/75ec012c-9154-4f37-b652-31755be6c2e9.xml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/dataSources/75ec012c-9154-4f37-b652-31755be6c2e9.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/DjangoDay07/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0002_auto_20190305_0145.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0002_auto_20190305_0145.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0003_grade_student.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0003_grade_student.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0004_student_s_score.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/migrations/0004_student_s_score.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/static/css/base.css" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/static/css/base.css" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/static/js/base.js" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/static/js/base.js" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/templates/base.html" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/templates/base.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/templates/goods.html" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/templates/goods.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/templates/index.html" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/tools/add_goods.sql" afterPath="$PROJECT_DIR$/../Python1812/day07/DjangoDay07/tools/add_goods.sql" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/DjangoDay08.iml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/DjangoDay08.iml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/dataSources/62374ec9-bc06-441a-9977-86d21446ac1c.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/dataSources/62374ec9-bc06-441a-9977-86d21446ac1c.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/markdown-navigator.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/markdown-navigator.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/__init__.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/settings.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/wsgi.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/DjangoDay08/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/admin.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/apps.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/migrations/0002_auto_20190306_0213.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/migrations/0002_auto_20190306_0213.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/migrations/0003_book.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/migrations/0003_book.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/models.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/tests.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/urls.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/views.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/app/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/dir/笔记.md" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/dir/笔记.md" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/manage.py" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/bookdetail.html" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/bookdetail.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/index.html" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/newsdetail.html" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/newsdetail.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Djangokaola$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1552551526767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Djangokaola@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Djangokaola@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Djangokaola@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Djangokaola: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.47672254">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/apps.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/tests.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="detailcopy.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kaolaIndex.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/home/kaolaIndex.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-8313">
+                  <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kaolaLogin.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#14#0" expanded="true" />
+                    <marker date="1552448487974" expanded="true" signature="691:944" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Python1812" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/Djangokaola/settings.py" />
+        <option value="$PROJECT_DIR$/Djangokaola/__init__.py" />
+        <option value="$PROJECT_DIR$/Djangokaola/urls.py" />
+        <option value="$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py" />
+        <option value="$PROJECT_DIR$/templates/kaolaLogin.html" />
+        <option value="$PROJECT_DIR$/templates/home/kaolaIndex.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="24" />
+    <option name="width" value="1160" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ecommerce_websit" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/home" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test: " type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Djangokaola" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1827c019-49a7-4008-b6e0-9631a950a3fa" name="Default" comment="" />
+      <created>1552550944045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552550944045</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__ - 2019.03.14 at 16h 18m 48s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="24" width="737" height="612" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26695526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/kaolaIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1552448487974" expanded="true" signature="691:944" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a874417-bf3c-4f03-bb28-98d3f9cda9cf/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Djangokaola/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="130" column="1" lean-forward="false" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Djangokaola/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Djangokaola/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/页面说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1473">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/db/base_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1552448487974" expanded="true" signature="691:944" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/base/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/kaolaIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8313">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

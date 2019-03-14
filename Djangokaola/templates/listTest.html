@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/topMyStyle.css" rel="stylesheet" type="text/css">
+    <script src="jq_text/jquery-1.12.0.js"></script>
+    <script src="jq_text/jquery.cookie.js"></script>
+    <script>
+        $(function(){
+            $(".personCenter").mouseover(function(){
+                $(".personSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".personCenter").mouseout(function(){
+                $(".personSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topService").mouseover(function(){
+                $(".serviceSub").show();
+                $(this).find("a").css({"borderRight":"1px solid #fff"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topService").mouseout(function(){
+                $(".serviceSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).find("a").css({"borderRight":"1px solid #666"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+            $(".topMore").mouseover(function(){
+                $(".moreSub").show();
+
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #f2f2f2"});
+                $(this).css({"background":"white"});
+
+            })
+            $(".topMore").mouseout(function(){
+                $(".moreSub").hide();
+                $(this).css({"background":"#f2f2f2"});
+                $(this).prev("li").find("a").css({"borderRight":"1px solid #666"});
+
+            })
+        })
+    </script>
+    <script>
+        $(function(){
+
+            var goodsList = $.cookie("cart");
+            if (goodsList) {
+                goodsList = JSON.parse(goodsList);
+                //console.log(goodsList);
+                for (var i=0; i<goodsList.length; i++) {
+
+                    var goods = goodsList[i]; //每个商品
+                    var proCont=$("<ul class='buyProCont'></ul>");
+                    proCont.appendTo( $(".buyProduct") );
+
+                    var allChose=$("<li ><input class='choseThis' type='checkbox'/>全选</li>");
+                    allChose.appendTo( proCont );
+                    var proImg=$(" <li><img class='buyImg' src="+goods.img+"></li>");
+                    proImg.appendTo( proCont );
+                    var proName=$("<li class='buyName'>" + goods.name + "</li>");
+                    proName.appendTo( proCont );
+                    var proMoney=$("<li class='prePay'>￥" + goods.price + "</li>");
+                    proMoney.appendTo( proCont );
+                    var proNumber=$("<li class='proNum'>" + goods.num + "</li>");
+                    proNumber.appendTo( proCont );
+                    var proThisPay=1;
+                    var proThisPay=(goods.price)*(goods.num);
+
+                    var proAllPay=$("<li class='proMoney'>"+proThisPay+"</li>");
+                    proAllPay.appendTo( proCont );
+                    var operate=$("<li class='del'>删除</li>");
+                    operate.appendTo( proCont );
+                    var id=$("<li class='proId'>"+goods.id+"</li>");
+                    id.appendTo( proCont );
+                }
+
+            }
+            /*$(".shop_del a").click(function() {
+             var id=$(this).parent().parent().find(".shop_product_pic").find("a").attr("href").split("?")[1];
+             var users = $.cookie("cart") ? JSON.parse( $.cookie("cart") ) : [];
+             for(var i=0 ; i<users.length ; i++){
+             if(users.length>=1){
+             var data = users[index].data;
+             for(var p =0 ;p<data.length;p++){;
+             if(id == data[p].id){
+             $.cookie("cart"," ",{expires: 0, path: "/"})
+             }
+             }
+             }
+             }
+
+             //$.cookie("cart"," ",{expires: 0, path: "/"});   // 清楚当前在cookie中的数据
+             $(this).parent().parent().remove();     // 在页面上移除cookie
+             })
+
+             })*/
+            $(".buyProduct").on("click",".del",function(){
+
+
+
+                if($(this).parent().parent().children().size()==1){
+                    $(this).parent().remove();
+                    $(".carCont").hide();
+                    $(".emptyCar").show();
+                }else{
+
+                    $(this).parent().remove();
+
+                }
+            })
+
+
+
+        })
+    </script>
+    <style type="text/css">
+        .top_cont{
+            background: white;
+            height:60px;
+            width: 1090px;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 10px;
+        }
+        .carCont{
+            width: 1090px;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 10px;
+        }
+        .carCont_head{
+            height: 50px;
+            background: orange;
+
+        }
+        #li1{
+            position: relative;
+            left: -32px;
+
+        }
+        .carCont_head li{
+            float: left;
+            margin: 10px 63px;
+        }
+        .buyProCont{
+            height: 100px;
+            background: #fffbf0;
+            border: 1px solid #eaeaea;
+            position: relative;
+            margin-top: 10px;
+        }
+        .buyProCont li{
+            float: left;
+            margin: 10px 62px;
+        }
+        .buyImg{
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            left:120px;
+        }
+        .buyName{
+            width:136px;
+            position: absolute;
+            left:150px;
+        }
+        .prePay{
+            position: relative;
+            left:73px;
+        }
+        .proNum{
+
+            position: relative;
+            left:121px;
+        }
+        .proMoney{
+            position: relative;
+            left:140px;
+        }
+        .del{
+            position: relative;
+            left:196px;
+        }
+        .emptyCar{display: none;height: 30px;margin: 0 auto;width: 1090px;text-align: center}
+        .emptyCar a{
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+<div class="topMy">
+    <div class="topMy_cont">
+        <span>考拉欢迎你！</span>
+        <a href="#" id="login">登录&nbsp;|</a>
+        <a href="#" id="reg">免费注册</a>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <span class="phoneShop">手机考拉海购</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <ul class="top_right">
+            <li><a href="#" id="dailySign">每日签到</a> </li>
+            <li><a href="#">我的订单</a></li>
+            <li class="personCenter"><a href="#">个人中心<span class="subLogo"></span></a></li>
+            <li class="topService"><a href="#">客户服务<span  class="subLogo"></span></a></li>
+            <li><a href="#" id="gamePay">游戏充值</a></li>
+            <li><a href="#">消费者告知书</a></li>
+            <li class="topMore"><a href="#" id="top_rightMore">更多<span class="subLogo"></span></a></li>
+        </ul>
+
+        <ul class="personSub">
+            <li>我的优惠劵</li>
+            <li>我的考拉豆</li>
+            <li>账户安全</li>
+            <li>我的实名认证</li>
+            <li>我收藏的商品</li>
+            <li>我关注的品牌</li>
+            <li>售后管理</li>
+        </ul>
+        <ul class="serviceSub">
+            <li>联系客服</li>
+            <li>帮助中心</li>
+        </ul>
+        <ul class="moreSub">
+            <li>收藏本站</li>
+            <li>新浪微博</li>
+            <li>微信公众号</li>
+            <li>易信公众号</li>
+            <li>招商合作</li>
+            <li>考拉招聘</li>
+        </ul>
+    </div>
+</div>
+<div class="top_cont">
+    <h1><img src="imgS/nav_imgs/logoALL.png"/></h1>
+</div>
+<div class="emptyCar">
+    <a href="home/kaolaIndex.html">购物车为空，快去首页选购吧!</a>
+</div>
+<div class="carCont">
+    <ul class="carCont_head">
+        <li class="li0"><input class="quanBtn" type="checkbox"/>全选</li>
+        <li id="li1">商品信息</li>
+        <li class="li2">单价（元）</li>
+        <li class="li3">数量</li>
+        <li class="li4">金额（元）</li>
+        <li class="li5">操作</li>
+    </ul>
+
+    <div class="buyProduct">
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

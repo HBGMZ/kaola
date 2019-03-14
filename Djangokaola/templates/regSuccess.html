@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考拉-注册成功</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link rel="stylesheet" type="text/css" href="css/register.css"/>
+    <script src="jq_text/jquery-1.12.0.js"></script>
+
+    <script src="jq_text/register.js"></script>
+    <script src="jq_text/cookie.js"></script>
+
+    <script>
+        $(function(){
+            var user=getCookie("userName");
+            var user1=user.substr(0,3);
+            var user2=user.substr(user.length-4,4);
+            $("#nameSucess").html(user1+"****"+user2);
+        })
+
+    </script>
+</head>
+<body>
+<div id="registerHeader">
+    <h1><a href="#"><img src="imgS/bg1.png" alt="" title="" /></a></h1>
+
+</div>
+<div id="sucess">
+    <div class="sucessTop">
+        <div class="sucessText">
+            <p class="sucessText1">恭喜您，您的账户<span id="nameSucess">136****6384</span>注册成功！</p>
+            <p class="sucessText2"><a href="home/kaolaIndex.html" style="color:#fff">立即购物</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
