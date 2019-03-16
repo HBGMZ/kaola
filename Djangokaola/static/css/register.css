@@ -1,0 +1,81 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0;}
+fieldset,img{border:0;}
+img{display:block;}
+ul,ol{list-style:none;}
+body{font:12px "Microsoft YaHei";color:#666;}
+a,u{text-decoration:none;color:#888}
+a:hover{color:#cb351a;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+
+
+
+
+#registerHeader{width:1000px;height:93px;margin:0 auto;}
+#registerHeader h1{float:left;width:498px;height:83px;padding-top:10px;}
+#registerHeader p{width:502px;height:51px;padding-top:42px;float:left;}
+
+
+#registerCon{width:960px;height:570px;margin:0 auto;padding-top:15px;}
+.registerLeft{width:508px;height:230px;float:left;}
+.registerRight{width:319px;height:500px;float:left;border:1px solid #ccc;border-top:2px solid #ea3918;padding:0 44px;}
+.formHeader{height:49px;padding-top:24px;font-family: Arial, Helvetica, sans-serif;}
+.formHeader h2{width:165px;height:49px;font-size:22px;float:left;color:#444;font-weight:100;}
+.formHeader div{width:154px;height:49px;float:left;color:#000;line-height:24px;text-align: right;}
+.registerRight p{height:61px;}
+.registerRight input{outline: none;}
+.registerRight p input{width:304px;height:33px;border:1px solid #ccc;padding:0 6px;font-size:14px;}
+.registerRight .verify{width:90px;padding:0 9px;float:left;margin-right:4px;}
+.registerRight .verifyBtn{width:109px;background: #eee;height:35px;float:left;color:#444;font-size:12px;}
+.registerRight .nowRegister{background: #e83917;color:#fff;font-size:22px;border-color:#e83917;height:42px;border-radius:2px;cursor: pointer;}
+.registerRight .agreeInf{height:25px;color:#000;line-height:20px;overflow:hidden;}
+.registerRight .agreeInf input{float:left;margin-right:4px;margin-top:4px;}
+.registerRight .lastNotice{text-align: center;color:#000;}
+.registerRight .lastNotice a{color:#128cff;}
+.registerRight .verifyCode{position: relative;}
+#verifyCodeTip{float:left;}
+#verifyCodeTip{width:304px;height:26px;}
+.registerRight .verifyCode #verifyRandom{font-size:16px;width:94px;height:33px;float:left;margin-right:4px;border:1px solid #ccc;text-align: center;line-height: 33px;}
+.registerRight .verifyCode b{float:left;height:35px;line-height:33px;font-weight:100;color:#999;cursor: pointer;margin-right:60px;}
+.registerRight .verifyCode i{diplay:block;position:absolute;width:14px;height:14px;left:121px;top:11px;display: none;}
+
+
+.login .userName{height:32px;padding:0 0 0 46px;width:263px;}
+.login .pwd{height:32px;padding:0 0 0 46px;width:263px;}
+.login .verify{height:32px;}
+.login .verifyCode span{height:32px;}
+.login .verifyCode b{height:32px;}
+.login .forgetPwd{text-align: right;line-height: 12px;height:20px;}
+.login .nowRegister{width:307px;}
+.login{height:388px;}
+.otherLogin span{height:25px;float:left;margin-right:3px;line-height: 25px;}
+.otherLogin a{display: block; float:left; width: 28px; height: 25px; margin-right: 3px;
+    }
+.otherLogin .qq{background-position:-22px -126px;}
+.otherLogin .ali{background-position:-102px -126px;}
+.otherLogin .aq360{background-position:-143px -380px;}
+.otherLogin .sina{background-position:-62px -126px;}
+.tip{line-height: 24px;}
+
+
+#sucess{width:600px;height:740px;margin:0 auto;}
+.sucessTop{height:120px;padding-top:20px;}
+.sucessBg{height:120px;float:left;width:92px;padding-left:76px;}
+.sucessBg p{width:72px;height:72px;}
+.sucessText{width:432px;height:120px;float:left;}
+.sucessText1{line-height:22px;color:#000;margin-bottom:20px;font-size:14px;}
+.sucessText2{width:120px;height:40px;text-align: center;line-height: 40px;background: #e83917;color:#fff;font-size:17px;border-radius: 2px;}
+.sucessImg{width:600px;height:343px;margin-bottom: 40px;}
+.sucessTip{height:44px;border:1px solid #ddd;line-height:44px;font-size:14px;color:#444;padding-left:29px;margin-bottom: 40px;}
+.sucessTip i{display:inline-block;width:22px;height:20px;margin-top:12px;float:left;margin-right:6px;}
+.sucessEmailTip{height:25px;font-size:14px;color:#444;border-bottom: 2px solid #e83917;text-align: center;position: relative;margin-bottom: 13px;}
+.sucessEmailTip em{ position:absolute; width:10px; height:5px;bottom: -7px;left:302px;display: block;}
+.sucessEmail{padding-left:30px;font-size:14px;}
+.emailName{width:280px;height:40px;border:1px solid #ddd;padding:0 5px;margin:0 10px;}
+.emailSend{width:128px;height:42px;border:1px solid #ddd;color:#444;background: #f4f4f4;font-size:12px;}
+
+
+
+
+
+
+

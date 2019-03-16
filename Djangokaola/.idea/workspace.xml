@@ -65,6 +65,211 @@
       <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/mixin.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/mixin.py" />
       <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/utils/views.py" afterPath="$USER_HOME$/Desktop/ecommerce_websit/utils/views.py" />
       <change beforePath="$USER_HOME$/Desktop/ecommerce_websit/uwsgi.example.ini" afterPath="$USER_HOME$/Desktop/ecommerce_websit/uwsgi.example.ini" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/dataSources.local.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/dataSources.local.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/dataSources.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/dataSources.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/dataSources/93022517-26f9-40db-839a-cd856c752310.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/dataSources/93022517-26f9-40db-839a-cd856c752310.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/fileColors.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/fileColors.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/misc.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/misc.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/modules.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/modules.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/vcs.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/vcs.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/workspace.xml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/workspace.xml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/.idea/ybw1812.iml" afterPath="$USER_HOME$/PycharmProjects/YBW1812/.idea/ybw1812.iml" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/manage.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/manage.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/css/swiper.css" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/css/swiper.css" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/img/sea.js" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/img/sea.js" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/img/z_stat.php" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/img/z_stat.php" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/js/index_temp.js" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/js/index_temp.js" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/js/jquery-1.12.3.js" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/js/jquery-1.12.3.js" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/js/jquery-3.1.0.min.js" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/js/jquery-3.1.0.min.js" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/js/jquery.cookie.js" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/js/jquery.cookie.js" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/js/lunbo.js" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/js/lunbo.js" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/static/js/swiper.js" afterPath="$USER_HOME$/PycharmProjects/YBW1812/static/js/swiper.js" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/__init__.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/__init__.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/admin.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/admin.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/apps.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/apps.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0001_initial.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0001_initial.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0002_auto_20190314_0953.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0002_auto_20190314_0953.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0003_lby.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0003_lby.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0004_auto_20190314_1409.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0004_auto_20190314_1409.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0005_shop.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0005_shop.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0006_auto_20190315_0243.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0006_auto_20190315_0243.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0007_detail_name.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0007_detail_name.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0008_remove_detail_name.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0008_remove_detail_name.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0009_detail_img.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0009_detail_img.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0010_user.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0010_user.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0011_auto_20190315_0330.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0011_auto_20190315_0330.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0012_shop.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0012_shop.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0013_auto_20190315_0651.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0013_auto_20190315_0651.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0014_auto_20190315_0710.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0014_auto_20190315_0710.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0015_auto_20190315_0807.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0015_auto_20190315_0807.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0016_auto_20190316_0215.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/migrations/0016_auto_20190316_0215.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/models.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/models.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/tests.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/tests.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/urls.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/urls.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw/views.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw/views.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw1812/settings.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw1812/settings.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw1812/urls.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw1812/urls.py" />
+      <change beforePath="$USER_HOME$/PycharmProjects/YBW1812/ybw1812/wsgi.py" afterPath="$USER_HOME$/PycharmProjects/YBW1812/ybw1812/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/.idea/TTSX.iml" afterPath="$PROJECT_DIR$/../Django-TTSX/.idea/TTSX.iml" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Django-TTSX/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Django-TTSX/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Django-TTSX/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Django-TTSX/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/manage.py" afterPath="$PROJECT_DIR$/../Django-TTSX/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/pip-install.txt" afterPath="$PROJECT_DIR$/../Django-TTSX/pip-install.txt" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/css/font/adminthemes-webfont.svg" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/css/font/adminthemes-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/css/jquery.mCustomScrollbar.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/css/jquery.mCustomScrollbar.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/css/style.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/Particleground.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/Particleground.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/amcharts.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/amcharts.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/anchor/anchor.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/anchor/anchor.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/attachment/attachment.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/attachment/attachment.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/attachment/attachment.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/attachment/attachment.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/attachment/attachment.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/attachment/attachment.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/background/background.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/background/background.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/background/background.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/background/background.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/background/background.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/background/background.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/chart.config.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/chart.config.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/charts.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/charts.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/charts.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/charts.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/charts.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/charts/charts.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/emotion/emotion.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/emotion/emotion.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/emotion/emotion.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/emotion/emotion.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/emotion/emotion.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/emotion/emotion.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/gmap/gmap.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/gmap/gmap.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/help/help.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/help/help.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/help/help.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/help/help.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/help/help.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/help/help.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/image/image.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/image/image.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/image/image.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/image/image.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/image/image.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/image/image.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/insertframe/insertframe.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/insertframe/insertframe.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/internal.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/internal.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/link/link.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/link/link.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/map/map.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/map/map.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/map/show.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/map/show.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/music/music.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/music/music.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/music/music.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/music/music.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/music/music.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/music/music.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/preview/preview.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/preview/preview.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/scrawl/scrawl.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/scrawl/scrawl.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/scrawl/scrawl.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/scrawl/scrawl.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/scrawl/scrawl.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/scrawl/scrawl.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/searchreplace/searchreplace.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/searchreplace/searchreplace.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/searchreplace/searchreplace.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/searchreplace/searchreplace.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/snapscreen/snapscreen.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/snapscreen/snapscreen.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/spechars/spechars.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/spechars/spechars.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/spechars/spechars.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/spechars/spechars.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittable.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittable.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittable.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittable.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittable.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittable.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittd.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittd.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittip.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/table/edittip.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/config.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/config.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/template.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/template.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/template.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/template.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/template.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/template/template.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/video/video.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/video/video.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/video/video.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/video/video.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/video/video.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/video/video.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/webapp/webapp.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/webapp/webapp.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/wordimage/tangram.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/wordimage/tangram.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/wordimage/wordimage.html" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/wordimage/wordimage.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/wordimage/wordimage.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/dialogs/wordimage/wordimage.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/html5.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/html5.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/jquery-1.4.4.min.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/jquery-1.4.4.min.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/jquery.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/jquery.mCustomScrollbar.concat.min.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/jquery.mCustomScrollbar.concat.min.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/lang/en/en.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/lang/en/en.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/lang/zh-cn/zh-cn.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/lang/zh-cn/zh-cn.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/pie.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/pie.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/serial.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/serial.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/default/css/ueditor.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/default/css/ueditor.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/default/css/ueditor.min.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/default/css/ueditor.min.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/default/dialogbase.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/default/dialogbase.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/iframe.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/themes/iframe.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/ueditor.all.min.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/ueditor.all.min.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/ueditor.config.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/ueditor.config.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/verificationNumbers.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/admin/js/verificationNumbers.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/common/functions.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/common/functions.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/css/main.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/css/reset.css" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/css/reset.css" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/jquery-1.12.4.min.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/jquery-ui.min.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/jquery.cookie.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/register.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/register.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/slide.js" afterPath="$PROJECT_DIR$/../Django-TTSX/static/ttsx/js/slide.js" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_order/admin.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_order/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_order/apps.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_order/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_order/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_order/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_order/models.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_order/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_order/tests.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_order/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_order/urls.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_order/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_order/views.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_order/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/admin.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/apps.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/models.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/tests.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/urls.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/views.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_shopping/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_store/admin.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_store/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_store/apps.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_store/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_store/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_store/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_store/models.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_store/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_store/tests.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_store/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_store/urls.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_store/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_store/views.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_store/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_user/admin.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_user/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_user/apps.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_user/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_user/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_user/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_user/models.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_user/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_user/tests.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_user/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_user/urls.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_user/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/sx_user/views.py" afterPath="$PROJECT_DIR$/../Django-TTSX/sx_user/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/adjust_funding.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/adjust_funding.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/discharge_statistic.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/discharge_statistic.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/express_list.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/express_list.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/index.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/login.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/login.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/order_detail.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/order_detail.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/order_list.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/order_list.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/pay_list.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/pay_list.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/product_detail.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/product_detail.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/product_list.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/product_list.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/recycle_bin.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/recycle_bin.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/sales_volume.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/sales_volume.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/setting.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/setting.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/user_detail.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/user_detail.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/user_list.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/user_list.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/admin/user_rank.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/admin/user_rank.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/base.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/base.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/base_order.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/base_order.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/base_user.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/base_user.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/cart.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/cart.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/detail.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/detail.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/index.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/list.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/list.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/login.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/place_order.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/place_order.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/register.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/register.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/user_center_info.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/user_center_info.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/user_center_order.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/user_center_order.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/templates/user_center_site.html" afterPath="$PROJECT_DIR$/../Django-TTSX/templates/user_center_site.html" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsx/__init__.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsx/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsx/settings.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsx/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsx/urls.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsx/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsx/wsgi.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsx/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/admin.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/apps.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/models.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/models.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/tests.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/urls.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/views.py" afterPath="$PROJECT_DIR$/../Django-TTSX/ttsxAdmin/views.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/utils/UserAuthMiddleware.py" afterPath="$PROJECT_DIR$/../Django-TTSX/utils/UserAuthMiddleware.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/utils/functions.py" afterPath="$PROJECT_DIR$/../Django-TTSX/utils/functions.py" />
+      <change beforePath="$PROJECT_DIR$/../Django-TTSX/开发效果展示说明.md" afterPath="$PROJECT_DIR$/../Django-TTSX/开发效果展示说明.md" />
       <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/Python181AXF.iml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/Python181AXF.iml" />
       <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.local.xml" />
       <change beforePath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/dataSources.xml" />
@@ -425,104 +630,24 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47672254">
+    <splitter split-orientation="horizontal" split-proportion="0.47678918">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/urls.py">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="324">
+                  <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/apps.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/tests.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detailcopy.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="detailcopy.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="kaolaIndex.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/home/kaolaIndex.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8313">
-                  <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="kaolaLogin.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="-1782">
+                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -531,35 +656,57 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
+        <leaf>
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+                <state relative-caret-position="162">
+                  <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                    <marker date="1552754327455" expanded="true" signature="72:487" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kaolaLogin.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Shop.html" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/templates/Shop.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2211">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py">
+            <entry file="file://$PROJECT_DIR$/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state relative-caret-position="809">
+                  <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py">
+            <entry file="file://$PROJECT_DIR$/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="183">
+                  <caret line="130" column="41" lean-forward="false" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#14#0" expanded="true" />
-                    <marker date="1552448487974" expanded="true" signature="691:944" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -573,22 +720,39 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Python1812" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/PycharmProjects/YBW1812" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/Djangokaola/settings.py" />
         <option value="$PROJECT_DIR$/Djangokaola/__init__.py" />
-        <option value="$PROJECT_DIR$/Djangokaola/urls.py" />
         <option value="$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py" />
         <option value="$PROJECT_DIR$/templates/kaolaLogin.html" />
         <option value="$PROJECT_DIR$/templates/home/kaolaIndex.html" />
+        <option value="$PROJECT_DIR$/Djangokaola/urls.py" />
+        <option value="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/urls.py" />
+        <option value="$USER_HOME$/Desktop/ecommerce_websit/utils/views.py" />
+        <option value="$PROJECT_DIR$/static/register.html" />
+        <option value="$PROJECT_DIR$/static/cart.html" />
+        <option value="$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/../Python1812/Python181AXF/app/urls.py" />
+        <option value="$PROJECT_DIR$/static/js/cookie.js" />
+        <option value="$PROJECT_DIR$/static/js/jquery.arSlide.js" />
+        <option value="$PROJECT_DIR$/../haigounet/src/js/register.js" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/templates/regsterKaola.html" />
+        <option value="$PROJECT_DIR$/templates/regSuccess.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/../haigounet/src/register.html" />
       </list>
     </option>
   </component>
@@ -620,6 +784,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -635,43 +800,63 @@
             <path>
               <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
-              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python181AXF" type="462c0819:PsiDirectoryNode" />
+              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
+              <item name="ybw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haigounet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haigounet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haigounet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -679,16 +864,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ecommerce_websit" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/YBW1812" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/home" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/home" />
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -703,7 +892,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: ">
     <configuration name="Test: " type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -723,9 +912,15 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
     </configuration>
+    <configuration name="home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Djangokaola/templates/home/home.html" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Django tests.Test: " />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: " />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
+        <item index="1" class="java.lang.String" itemvalue="Django tests.Test: " />
       </list>
     </recent_temporary>
   </component>
@@ -751,7 +946,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="24" width="737" height="612" extended-state="6" />
+    <frame x="67" y="24" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -760,10 +955,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26695526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17871326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -773,8 +967,32 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17871326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756132" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -783,86 +1001,97 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
+    <entry file="file://$PROJECT_DIR$/Djangokaola/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/settings.example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="2502">
+          <caret line="183" column="25" lean-forward="false" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py">
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.arSlide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="815">
+          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/kaolaIndex.html">
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/js/register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="342">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/static/js/cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/utils/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="234">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py">
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py">
+    <entry file="file://$PROJECT_DIR$/static/css/proDdetali/magnifyStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/place_order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1552448487974" expanded="true" signature="691:944" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a874417-bf3c-4f03-bb28-98d3f9cda9cf/console.sql">
+    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/css/link.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -871,42 +1100,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Djangokaola/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="303">
           <caret line="130" column="1" lean-forward="false" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kaolaIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/settings.py">
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/js/lunbo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Djangokaola/__init__.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/ybw1812/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="-1545">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Djangokaola/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/ybw1812/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -914,7 +1137,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/urls.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/ybw1812/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -922,22 +1145,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+    <entry file="file://$PROJECT_DIR$/Djangokaola/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -945,82 +1153,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/页面说明.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1473">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/db/base_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/Python181AXF/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1552448487974" expanded="true" signature="691:944" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/base/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home/kaolaIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8313">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/ybw/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1036,7 +1169,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/ybw/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/swiper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1044,18 +1187,296 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests.py">
+    <entry file="file://$PROJECT_DIR$/Djangokaola/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/swiper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/ybw/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/productDetail011.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/111.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/222.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1491">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/ceshi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2445">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/regSuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shopCarKaola.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-951">
+          <caret line="277" column="28" lean-forward="false" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/templates/land.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2481">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/regsterKaola.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/carts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="130" column="41" lean-forward="false" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1552754327455" expanded="true" signature="72:487" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/ybw/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/templates/Shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2211">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <marker date="1552754327439" expanded="true" signature="688:4069" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="702:745" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="761:892" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="922:958" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="979:1016" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="1034:1135" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="1156:1251" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="1274:1312" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="1330:1457" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="1484:1614" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="1643:1854" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="1898:2000" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2016:2057" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2081:2302" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2320:2446" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2485:2522" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2562:2656" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2689:2732" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2765:2808" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2841:2884" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2917:2960" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="2984:3023" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="3046:3248" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="3271:3426" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="3455:3584" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="3610:3712" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="3728:3825" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="3843:3998" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="4018:4057" ph="{...}" />
+            <marker date="1552754327439" expanded="true" signature="4084:5459" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="4105:4232" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="4255:5121" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="4278:4322" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="4345:5023" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="4357:4569" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="4364:4565" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="4424:4557" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="5048:5114" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="5142:5451" ph="..." />
+            <marker date="1552754327439" expanded="true" signature="5150:5413" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding>
+            <marker date="1552754327431" expanded="true" signature="306:3244" ph="..." />
+            <marker date="1552754327431" expanded="true" signature="323:445" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="467:534" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="557:631" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="648:792" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="813:890" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="912:1070" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="1096:1212" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="1240:1370" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="1401:1523" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="1539:1607" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="1627:1700" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="1723:1942" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="1985:2113" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2146:2242" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2287:2325" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2344:2387" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2400:2496" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2509:2581" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2598:2811" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2832:2904" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="2923:2994" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="3025:3097" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="3130:3231" ph="{...}" />
+            <marker date="1552754327431" expanded="true" signature="3259:4603" ph="..." />
+            <marker date="1552754327431" expanded="true" signature="3280:3550" ph="..." />
+            <marker date="1552754327431" expanded="true" signature="3572:4522" ph="..." />
+            <marker date="1552754327431" expanded="true" signature="3642:4515" ph="..." />
+            <marker date="1552754327431" expanded="true" signature="4021:4503" ph="..." />
+            <marker date="1552754327431" expanded="true" signature="4356:4488" ph="..." />
+            <marker date="1552754327431" expanded="true" signature="4543:4595" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

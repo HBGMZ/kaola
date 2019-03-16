@@ -1,0 +1,62 @@
+
+
+.magnifyPart{
+    height: 445px;
+    width:430px;
+    position: relative;
+    float: left;
+}
+.smallImg{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    border:1px solid #ccc;
+
+}
+.smallArea{
+    display: none; width: 50px; height: 50px;
+    background: rgba(200, 255, 200, 0.3);
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
+.bigArea{
+    overflow: hidden; width: 400px; height: 400px; background: white;
+    position: absolute; left: 435px; top: 20px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 10;
+
+}
+.bigImg{
+    position: absolute; left: 0;
+    top: 0; width: 800px; height: 800px;
+}
+.magnifyLit{
+    margin-left: 36px;
+    width: 393px;
+    height: 165px;
+    float: left;
+
+}
+.magnifyLit li{
+    float: left;
+
+}
+.smallImg img{
+    display: none;
+}
+.smallImg img:first-child{
+    display: block;
+}
+.bigImg{
+    display: none;
+}
+.bigImg:first-child{
+    display: block;
+}
+

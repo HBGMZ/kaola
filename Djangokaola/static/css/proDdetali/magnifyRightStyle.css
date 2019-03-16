@@ -1,0 +1,181 @@
+
+.d_mid{
+    width: 1090px;
+    margin: 0 auto;
+}
+.addressOn{
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    color: #999;
+    font-weight: 500;
+
+}
+.addressLeft{
+    color: black;
+    font-weight: 500;
+
+}
+.magRight{
+    float: right;
+    height: 610px;
+    position: relative;
+    width: 660px;
+}
+.proName {
+    font-size: 10px ;
+    color: #999;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+.sellLogo {
+    float: right;
+}
+.detailTitel{
+    font-size: 16px;
+    line-height: 48px;
+
+}
+.detailTitel span {
+     color: red;
+ }
+.intro{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.time{
+    margin-top: 15px;
+}
+.hotprice{
+    height: 50px;
+    position: relative;
+    padding-top: 10px;
+    background: #f9f9f9;
+    border-bottom: 1px dashed #ddd;
+}
+.hotprice span{
+    font-size: 12px;
+    color: #555;
+
+}
+.hotprice i{
+    color: #d22046;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+}
+#allPrice{
+    color: #d22046;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.delPerPrice{
+    width: 80px;
+    height: 18px;
+    background: #f68587;
+    color: white;
+    position: absolute;
+    left:151px;
+    top:13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+
+
+
+}
+.rP{
+    font-size: 10px;
+    color: #999;
+    position: absolute;
+    left:275px;
+    top:15px;
+    font-weight: 500;
+
+}
+.choose {
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+.buy{
+    margin-top: 20px;
+}
+.imeBuy{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #d41c44;
+    background: #ffeced;
+    font-size: 16px;
+    color:#d41c44;
+    font-weight: 800;
+
+}
+.plusToCar{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #d41c44;
+    background: #d41c44;
+    font-size: 16px;
+    color:white;
+    font-weight: 800;
+    position: relative;
+    margin-left: 10px;
+}
+.delCarLogo{
+    position: absolute;
+    left:14px;
+    top:3px;
+}
+.collect{
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+}
+.collectLogo{
+    position: absolute;
+    left:-22px;
+    top:-3px;
+
+}
+.buyNum{
+    position: relative;
+}
+.buyNumLogo{
+    margin-top: 5px;
+    position: absolute;
+    left: 58px;
+    top:-5px;
+}
+.limitNum{
+    position: absolute;
+    left:165px;
+}
+.hint{
+    font-size: 12px;
+    color:#666;
+    line-height: 30px;
+}
+.starComment{
+    height: 42px;
+    border-bottom: 1px dashed #ccc;
+    position: relative;
+}
+.starComment img{
+    position: absolute;
+    top:19px;
+    left:0px;
+}
+.commentCont {
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}

@@ -1,0 +1,70 @@
+
+*{margin: 0;padding: 0;}
+a{text-decoration: none}
+ul{list-style: none}
+.top_cont{
+    background: white;
+    height:100px;
+    width: 1090px;
+    margin: 0 auto;
+    position: relative;
+}
+.searchInput{
+    position: absolute;
+    top:0px;
+    left:345px;
+    width: 460px;
+    height: 38px;
+    border:2px  solid #333;
+    background: url("../imgS/nav_imgs/opaSearch.png") no-repeat 10px 13px;
+    padding-left: 35px;
+
+}
+.searchLogo{
+    width:50px;
+    height: 38px;
+    background: #333;
+    border-radius: 0 5px 5px 0px;
+    position:absolute;
+    left:843px;
+    top:0px;
+    border:2px  solid #333;
+}
+.searchLogo img{
+    margin:8px;
+}
+.searchList{
+    float:right;
+    position: absolute;
+    top:48px;
+    left:338px;
+}
+.searchList li{
+    float: left;
+    font-size: 12px;
+    color:#bd99bd;
+    padding:0  8px;
+    border-right: 1px solid #bd99bd;
+    height:15px;
+
+
+}
+.topCar{
+    line-height: 38px;
+    width:113px;
+    height:38px;
+    text-align: center;
+    border:1px solid #f2f2f2;
+    position:absolute;
+    top:0px;
+    left:1000px;
+}
+.top_cont h1{
+    margin-top: 30px;
+}
+.topCar a{
+    padding-left: 26px;
+    background:url("../imgS/nav_imgs/shopCAR.png") no-repeat;
+    color:black;
+
+}

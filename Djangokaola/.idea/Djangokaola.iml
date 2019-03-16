@@ -18,7 +18,8 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (env37)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Python181AXF" />
-    <orderEntry type="module" module-name="ecommerce_websit" />
+    <orderEntry type="module" module-name="haigounet" />
+    <orderEntry type="module" module-name="ybw1812" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

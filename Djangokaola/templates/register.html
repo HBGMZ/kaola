@@ -1,0 +1,198 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易账号中心</title>
+    <!-- cc:ie6 --><!--[if lte IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+    <link rel="stylesheet" href="{% 'css/link.css" type="text/css' %}" />
+    <script src="{% 'js/jquery-1.12.3.min.js' %}"></script>
+    <script src="{% 'js/lib/jquery-validation/jquery.validate.js' %}"></script>
+    <script src="{% 'js/lib/jquery-validation/additional-methods.js' %}"></script>
+    <script src="{% 'js/register.js' %}"></script>
+    <style>
+        body{
+            background:#efefef;
+        }
+        .header{
+            width: 1002px;
+            margin:44px auto;
+            overflow: hidden;
+            margin-bottom: 52px;
+        }
+        .header img,.header p{
+            float: left;
+        }
+        .header span{
+            float: right;
+        }
+        .header p{
+            line-height: 34px;
+            font-size: 26px;
+            margin-left: 9px;
+        }
+        .header span{
+            line-height: 34px;
+            font-size: 16px;
+            color:#666;
+        }
+        .header span a{
+            color:#ca5252;
+        }
+        .register{
+            width: 1002px;
+            background:#fff;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        .register .reg-top{
+            width: 330px;
+            margin:0 auto;
+            overflow: hidden;
+            padding: 44px 0 36px 0;
+        }
+        .register .reg-top p{
+            width: 160px;
+            height: 38px;
+            text-align: center;
+            color:#666;
+            border: #ccc solid 1px;
+            float: left;
+            line-height: 38px;
+        }
+        .register .reg-top p:nth-of-type(1){
+            background:#ca5252;
+            border-color: #ca5252;
+            color:#fff;
+        }
+        #myform{
+            overflow: hidden;
+        }
+        #myform p input{
+            height: 44px;
+            width: 311px;
+            line-height: 44px;
+            color:#bdbdbd;
+            border: solid 1px #bdbdbd;
+            padding-left: 9px;
+            margin-left: 6px;
+        }
+        #myform p{
+           font-size: 14px;
+            color:#333;
+            margin-bottom: 26px;
+            overflow: hidden;
+        }
+        #myform p:nth-of-type(1) input{
+            width: 191px;
+        }
+        #myform p:nth-of-type(1) select{
+            width: 106px;
+            height: 44px;
+            margin-left: 10px;
+        }
+        #myform p:nth-of-type(1){
+            margin-left:300px ;
+        }
+        #myform p:nth-of-type(2){
+            margin-left:292px ;
+        }
+        #myform p:nth-of-type(3){
+            margin-left:276px ;
+        }
+        #myform p:nth-of-type(4){
+            margin-left:272px ;
+        }
+        #myform p label{
+            display: block;
+        }
+        #myform button{
+            width: 322px;
+            height: 46px;
+            margin-left: 343px;
+            background:red;
+            border: none;
+            color:#fff;
+            font-size: 18px;
+        }
+        #myform .check{
+            width: 322px;
+            font-size: 12px;
+            color:#b1b1b1;
+            margin-left: 342px;
+            margin-top: 10px;
+        }
+        #myform .check input{
+            width: 14px;
+            height: 14px;
+            border:#aaa solid 1px;
+            margin-right: 10px;
+        }
+        .register .bottom{
+            width: 900px;
+            margin:68px auto;
+            padding-bottom: 135px;
+        }
+        .footer{
+            width: 1002px;
+            margin:0 auto;
+            text-align: center;
+        }
+        .footer p{
+            width: 1000px;
+            font-size: 12px;
+            line-height: 13px;
+            color:#333;
+            margin-bottom: 13px;
+        }
+        .footer p a{
+            padding: 0 6px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <img src="images/images/wangyi_03.png" alt="">
+    <p>邮箱账号</p>
+    <span>已有账号?去<a href="javascript:;">登录</a></span>
+</div>
+<div class="register">
+ <div class="reg-top">
+     <p>普通账号注册</p>
+     <p>靓号注册</p>
+ </div>
+    <form id="myform">
+        <p><label>账号: <input name="u_name" placeholder="6-18位字母数字组合"> <select>
+            <option>@163.com</option>
+            <option>@126.com</option>
+            <option>@yeah.net</option>
+        </select></label></p>
+        <p><label> 密   码  :  <input type="password" name="u_pwd" id="pwd1" placeholder="6-16位密码,区分大小写"> </label></p>
+        <p><label>确认密码:<input type="password" name="u_pwd2" id="pwd2" placeholder="再次输入密码"> </label></p>
+        <p><label>手机号码: <input name="u_tel" placeholder="11位手机号"> </label></p>
+        <button type="submit">注册</button>
+        <div class="check"><input name="agree" type="checkbox"/>用户勾选即代表同意《网易邮箱服务条款》和《网易隐私政策》</div>
+    </form>
+    <div class="bottom">
+        <img src="images/images/wangyi_07.png" alt="">
+    </div>
+</div>
+<div class="footer">
+    <p>
+        <a href="#">About NetEase</a>-
+        <a href="#">公司简介</a>-
+        <a href="#">联系方式</a>-
+        <a href="#">OAuth2.0认证</a>-
+        <a href="#">招聘信息</a>-
+        <a href="#">客户服务</a>-
+        <a href="#">相关法律</a>-
+        <a href="#">网络营销</a>
+    </p>
+    <p>网易公司版权所有 ©1997-2017</p>
+</div>
+</body>
+</html>
+
+

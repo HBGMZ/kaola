@@ -1,0 +1,127 @@
+
+*{margin: 0;padding: 0;}
+a{text-decoration: none}
+ul{list-style: none}
+
+.top{
+    border-bottom: 1px solid black;
+}
+
+.topMy{
+    width:100%;
+    background: #f2f2f2;
+    height: 32px;
+}
+.topMy_cont{
+    width:1090px;
+    margin:0 auto;
+    font-size: 13px;
+    line-height: 32px;
+    color:#666;
+
+
+}
+.topMy_cont a{
+    font-size: 13px;
+    color:#666;
+
+}
+.topMy .top_right{
+    float: right;
+
+}
+.topMy .top_right li{
+    height:32px;
+    float: left;
+    background: #f2f2f2;
+}
+.topMy .top_right li a{
+    border-right: 1px solid #666;
+    padding: 0 10px;
+}
+
+
+.phoneShop{
+    background: url("../imgS/nav_imgs/phone.png") no-repeat;
+
+    padding-left: 15px;
+}
+
+
+#dailySign{
+    background: url("../imgS/nav_imgs/flag.png") no-repeat;
+    padding-left: 14px;
+}
+
+#top_rightMore{
+    border-right: 0px;
+}
+
+#gamePay{
+    background: url("../imgS/nav_imgs/game.png") no-repeat;
+    padding-left: 18px;
+    margin-left: 10px;
+}
+.subLogo{
+    display: inline-block;
+    border-width: 4px 4px 0;
+    border-color: #666 #f2f2f2;
+    border-style: solid;
+    position: relative;
+    top: -4px;
+    margin-left: 3px;
+    height: 0;
+    width: 0;
+}
+.personSub{
+    z-index: 10;
+    position: absolute;
+    left:761px;
+    border:1px solid #f2f2f2;
+    border-top: 0px;
+    height:auto;
+    overflow: hidden;
+    width: 130px;
+    display: none;
+    background: white;
+}
+.personSub li{
+    height:20px;
+    padding: 5px 22px;
+}
+.serviceSub{
+    z-index: 10;
+    position: absolute;
+    left:844px;
+    border:1px solid #f2f2f2;
+    border-top: 0px;
+    height:auto;
+    overflow: hidden;
+    width: 120px;
+    display: none;
+    background: white;
+
+}
+.serviceSub li{
+    height:20px;
+    padding: 5px 22px;
+}
+.moreSub{
+    z-index: 10;
+    background: white;
+    position: absolute;
+    left:1059px;
+    border:1px solid #f2f2f2;
+    border-top: 0px;
+    height:auto;
+    overflow: hidden;
+    width: 120px;
+    display: none;
+
+}
+.moreSub li{
+    height:20px;
+    padding: 5px 22px;
+}
+
+

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$USER_HOME$/Desktop/ecommerce_websit" vcs="Git" />
+    <mapping directory="$USER_HOME$/PycharmProjects/YBW1812" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Django-TTSX" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Python1812" vcs="Git" />
   </component>
 </project>

@@ -1,0 +1,135 @@
+.topNav{
+    height: 40px;
+    width: 1090px;
+    margin: 0 auto;
+    background: white;
+}
+.top_navAll .firstClass{
+    background: #151515;
+    font-size: 14px;
+    line-height: 40px;
+    color:white;
+    margin: 0;
+    padding: 0 10px;
+    opacity: 1;
+    display: block;
+    width: 140px;
+    text-align: center;
+
+}
+.top_navAll{
+    background: #293538;
+    list-style: none;
+    float: left;
+    width: 160px;
+    text-align: center;
+    position: absolute;
+    top:162px;
+    left: 100px;
+    z-index: 100;
+
+
+
+}
+.top_navAll dt{
+    position: relative;
+}
+.top_navAll dd{
+    position: relative;
+}
+
+.top_navAll .firstClass:hover{
+    background:#151515 ;
+
+}
+.top_navAll .firstClassA{
+    border-bottom: none;
+
+}
+
+.top_navAll .firstClassA span{
+    position: absolute;
+    left: 43px;
+
+
+}
+.top_navAll dt a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 40px;
+    color:white;
+    padding: 13px 10px;
+    width: 140px;
+    height: 40px;
+    border-bottom: 2px solid #343f41;
+}
+
+.top_navAll dd a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 40px;
+    color:white;
+    padding: 13px 10px;
+    width: 140px;
+    height: 40px;
+    border-bottom: 2px solid #343f41;
+}
+.top_navAll .lastClass{border-bottom: none}
+.top_navAll dt img{
+    position: absolute;
+    left:8px;
+    top:10px;
+}
+.top_navAll dd{
+    display: none;
+    z-index: 10;
+}
+.top_navAll dd img{
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 8px;
+    top:10px;
+}
+.top_navAll dd:hover{
+    background: #555555;
+
+}
+.topNav_right{
+    list-style: none;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    left: 200px;
+}
+.topNav_right li{
+    font-size: 16px;
+    font-weight: 700;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.topNav_right li a{
+    color:black;
+}
+.topNav_right li a:hover{
+    color:red;
+
+}
+.firstPage{
+    margin-left:20px;
+}
+.show{
+    position: absolute;
+    left: 262px;
+    z-index: 100;
+
+}
+.show>div{
+    display: none;
+
+    z-index: 100;
+}

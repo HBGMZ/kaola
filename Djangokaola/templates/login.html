@@ -1,0 +1,163 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录-网易考拉海购</title>
+    <link rel="stylesheet" href="{% 'css/link.css" type="text/css' %}" />
+    <script src="{% 'js/jquery-1.12.3.min.js' %}"></script>
+    <script src="{% 'js/login.js' %}"></script>
+    <style>
+        .header{
+            margin: 0 auto;
+            width: 960px;
+            height: 70px;
+            padding-top: 30px;
+        }
+        .header ul li{
+            float: left;
+            margin-left: 20px;
+        }
+        .header .list1{
+            margin-left: 0px;
+            margin-right: 229px;
+        }
+        .content{
+            height: 520px;
+            border-top:1px solid  #e8e8ea;
+            background: #f8f8f8;
+            overflow: hidden;
+        }
+        .content img{
+            margin: 152px 200px 0 196px;
+            float: left;
+        }
+        .content form{
+            width: 352px;
+            height: 350px;
+            border: 1px solid #e8e8ea;
+            float: left;
+            margin-top: 48px;
+        }
+        .content form div{
+            height: 52px;
+            background: #f8f8f8;
+            border-bottom: 1px solid #e8e8ea;
+        }
+        .content form div p{
+            margin-left: 40px;
+            margin-top: 18px;
+            float: left;
+            margin-right: 103px;
+        }
+        .content form div span{
+            margin-top: 18px;
+            display: block;
+            float: left;
+            color: #e31436;
+        }
+        .footer{
+            height: 255px;
+            overflow: hidden;
+        }
+        .footer img{
+            margin-left: 138px;
+            margin-top: 47px;
+        }
+        .content input{
+            height: 34px;
+            width: 260px;
+            display: block;
+            margin: 0 auto;
+            border: solid 1px #d5d5d5;
+            margin-top: 20px;
+            padding-left:6px ;
+        }
+        .content input:nth-last-of-type(1){
+            width: 14px;
+            height: 14px;
+            display: inline;
+            margin: 10px 9px 0 41px;
+        }
+        .content span,.content a{
+            color: #999;
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .content span:hover,.content a:hover{
+            color:#e31436;
+        }
+        .content a{
+            margin-left: 124px;
+        }
+        .mag{
+            margin-left: 40px;
+            height: 15px;
+            color: #d21f1a;
+        }
+        .sub{
+            background: #e31436;
+            color: #ffffff;
+        }
+        .lianjie{
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-bottom: none;
+            border-top: solid 1px #d5d5d5;
+            padding-top: 10px;
+            padding-left: 41px;
+        }
+        .lianjie img{
+            margin: 0px 10px 0 0px;
+            float: left;
+        }
+        .lianjie a{
+            margin: 0px 0px 0 0px;
+            float: left;
+        }
+        .content .lianjie span{
+            margin: 4px 0px 0 47px;
+            float: left;
+        }
+        .content .lianjie span a{
+              margin-right: 5px;
+            font-size: 14px;
+            color: #e31436;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <ul>
+        <li class="list1"><img src="images/images/haigou_03.png"></li>
+        <li><img src="images/images/haigou_09.png"></li>
+        <li><img src="images/images/haigou_051.png"></li>
+        <li><img src="images/images/haigou_071.png"></li>
+    </ul>
+</div>
+<div class="content">
+    <img src="images/images/haigou_16.png">
+    <form class="myform">
+        <div><p>手机号登陆</p><span>邮箱登陆</span></div>
+        <input name="username" type="text" placeholder="网易邮箱账号">
+        <input type="password" name="userpwd" placeholder="密码">
+        <span class="mag"></span>
+        <input class="sub" type="submit" value="登陆">
+        <input type="checkbox"/><span>10天免登陆 </span><a href="javascript:;">忘记密码</a>
+        <div class="lianjie">
+            <a href="javascript:;"><img src="images/images/login1_03.png"></a>
+            <a href="javascript:;"><img src="images/images/login1_05.png"></a>
+            <a href="javascript:;"><img src="images/images/login1_07.png"></a>
+            <a href="javascript:;"><img src="images/images/login1_09.png"></a>
+            <span>
+            <a href="javascript:;">手机快捷注册</a>
+            <a href="javascript:;"><img src="images/images/login1_12.png"></a></span>
+        </div>
+    </form>
+</div>
+<div class="footer">
+    <img src="images/images/haigou1_03.png">
+</div>
+</body>
+</html>

@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +7,11 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
 
-    <link rel="stylesheet" type="text/css" href="css/register.css"/>
-    <script src="jq_text/jquery-1.12.0.js"></script>
+    <link rel="{% 'stylesheet" type="text/css' %}" href="{% 'css/register.css' %}"/>
+    <script src="{% 'jq_text/jquery-1.12.0.js' %}"></script>
 
-    <script src="jq_text/register.js"></script>
-    <script src="jq_text/cookie.js"></script>
+    <script src="{% 'jq_text/register.js' %}"></script>
+    <script src="{% 'jq_text/cookie.js' %}"></script>
 
     <script>
         $(function(){
@@ -31,7 +32,7 @@
     <div class="sucessTop">
         <div class="sucessText">
             <p class="sucessText1">恭喜您，您的账户<span id="nameSucess">136****6384</span>注册成功！</p>
-            <p class="sucessText2"><a href="home/kaolaIndex.html" style="color:#fff">立即购物</a></p>
+            <p class="sucessText2"><a href="kaolaIndex.html" style="color:#fff">立即购物</a></p>
         </div>
     </div>
 </div>

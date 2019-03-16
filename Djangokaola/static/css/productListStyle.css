@@ -1,0 +1,130 @@
+.diaperSub{
+    height:330px;
+
+    margin-top: 79px;
+
+}
+.proId{
+    display: none;
+}
+.diaProBig{
+    height:322px;
+
+    display: none;
+}
+.diaProBig:first-child{
+    display: block;
+
+}
+.diaProBig img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+.diaProMin{
+    height:320px;
+    margin-right: 2px;
+    width: 198px;
+    background:white;
+    float: left;
+    position: relative;
+}
+.imBuy{
+    width: 64px;
+    height: 30px;
+    background: #d22147;
+    position: absolute;
+    left:120px;
+    top:275px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+.rmbLogo{
+    font-size: 10px;
+    position: absolute;
+    left: 12px;
+    top:296px;
+    color: #d22147;
+    font-weight: 200;
+
+}
+.allPrice{
+    font-size: 16px;
+    color: #d22147;
+    position: absolute;
+    left: 21px;
+    top: 290px;
+    font-weight: 700;
+
+}
+.capacity{
+    font-size: 12px;
+    color: #d22147;
+    position: absolute;
+    left: 10px;
+    top:220px;
+}
+.word{
+    font-size: 12px;
+    position: absolute;
+    top:220px;
+    left: 40px;
+
+
+}
+.adWord{
+    font-size: 12px;
+    font-weight: 300;
+    position: absolute;
+    top:240px;
+    left: 10px;
+}
+.perPrice{
+    font-size: 12px;
+    width:60px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #d22147;
+    border:1px  dashed #d22147;
+    border-radius: 0 2px 0 2px;
+    position: absolute;
+    top:265px;
+    left:10px;
+}
+.oldPrice{
+    color: #999;
+    font-size: 9px;
+    position: absolute;
+    left: 53px;
+    top: 296px;
+
+}
+.disoff{
+    background: #fda438;
+    height: 45px;
+    width: 45px;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top:0px;
+    left:155px;
+    text-align: center;
+    line-height: 20px;
+
+
+}
+.comment{
+    position: absolute;
+    top:155px;
+    left:-8px;
+    z-index: 10;
+    display: none;
+}
+.proId{
+    font-size: 20px;
+}

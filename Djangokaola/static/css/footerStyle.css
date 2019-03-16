@@ -1,0 +1,134 @@
+
+
+.footer{
+    width: 100%;
+
+}
+.adv_logo{
+    height:auto;
+    overflow: hidden;
+    margin-left:80px;
+    margin-top: 25px;
+    background: white;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+
+}
+.adv_logo li{
+    float: left;
+    position: relative;
+    width: 250px;
+    height:50px;
+}
+.adv_logo li h2{
+    position: absolute;
+    left: 5px;
+    top:0px;
+
+
+
+}
+.adv_logo li h3{
+    position: absolute;
+    left: 57px;
+    top:2px;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+.adv_logo li h4{
+    position: absolute;
+    left: 55px;
+    top:26px;
+    font-size: 15px;
+
+}
+.adv_cont{
+    border-bottom: 1px solid #eaeaea;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.adv_contLeft,.adv_contMid{
+    float: left;
+    margin-top: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+
+
+}
+.adv_contRight{
+    float: left;
+    margin-top: 15px;
+
+}
+.adv_contRight span{
+    font-size: 12px;
+    margin-left: 18px;
+}
+.adv_contLeft {
+    float: left;
+    height: 124px;
+    width: 245px;
+    margin-left: 90px;
+    position: relative;
+    border-right: 1px solid #eaeaea;
+
+
+}
+.adv_contLeft h2{ position: absolute;left: 50px;top:50px;}
+.adv_contLeft span{font-size: 12px}
+.adv_contMid dl{
+    float: left;
+    margin-right: 30px;
+    border-right: 1px solid #eaeaea;
+    padding-right: 20px;
+    height:124px;
+
+
+}
+.footer_title {
+    margin-top: 20px;
+}
+.adv_contMid dd{
+    text-align: center;
+    line-height: 20px;
+
+
+}
+.adv_contMid dt a{
+    font-size: 16px;
+    color: black;
+
+}
+.adv_contMid dd a{
+    font-size: 12px;
+    color: black;
+}
+.footer_last{
+    width: 100%;
+    height: 128px;
+    background: #333;
+    opacity: 0.9;
+}
+.footer_last .footer_word,.policeLogo,.lastLogo{
+    font-size: 12px;
+    color: #c2c2c2;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+
+.policeLogo{
+    padding-left: 30px;
+    background: url("../imgS/footer/footer_32.png")no-repeat 200px -2px;
+    margin-top: 10px;
+}
+.footer_word{
+    padding-top: 30px;
+
+}
+
+
