@@ -6,7 +6,7 @@ import time
 from django.shortcuts import render, redirect
 
 # Create your views here.
-from ybw.models import Swiper, Swiper1, Detail, User, SShop, MShop, CShop, Cart
+from kaola.models import Swiper, Swiper1, Detail, User, SShop, MShop, CShop, Cart
 
 
 def index(request):
@@ -41,8 +41,8 @@ def index(request):
 #     return  render(request,'Shop.html',context={'shops':shops})
 
 
-def SHOP_Cart(requesrt):
-    return render(requesrt,'SHOP_Cart.html')
+def shopCarKaola(requesrt):
+    return render(requesrt,'shopCarKaola.html')
 
 
 def detail(request,id1):
@@ -50,7 +50,7 @@ def detail(request,id1):
     response_det={
         'details':details,
     }
-    return render(request,'Shop.html',context=response_det)
+    return render(request,'detailcopy.html',context=response_det)
 
 
 def generate_password(param):
@@ -88,7 +88,7 @@ def generate_token():
 #         request.session['token'] = token
 #
 #         # request.session['token'] = token
-#         return  redirect('ybw:index')
+#         return  redirect('kaola:kaolaIndex')
 
 
 def  register(request):

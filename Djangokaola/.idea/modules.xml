@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Djangokaola.iml" filepath="$PROJECT_DIR$/.idea/Djangokaola.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Python1812/Python181AXF/.idea/Python181AXF.iml" filepath="$PROJECT_DIR$/../Python1812/Python181AXF/.idea/Python181AXF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django_b2c/.idea/django_b2c.iml" filepath="$PROJECT_DIR$/../django_b2c/.idea/django_b2c.iml" />
       <module fileurl="file://$PROJECT_DIR$/../haigounet/.idea/haigounet.iml" filepath="$PROJECT_DIR$/../haigounet/.idea/haigounet.iml" />
-      <module fileurl="file://$USER_HOME$/PycharmProjects/YBW1812/.idea/ybw1812.iml" filepath="$USER_HOME$/PycharmProjects/YBW1812/.idea/ybw1812.iml" />
     </modules>
   </component>
 </project>

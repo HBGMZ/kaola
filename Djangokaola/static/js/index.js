@@ -66,14 +66,14 @@ $(function(){
     var placeholderVal=logoSearchCon.attr("placeholder");
     var searchConBorderClor=logoSearchCon.css("border-color");
 
-    //�������������ݿ���껬��---����ɫ
+
     logoSearchCon.on("mouseover",function(){
         $(this).css({"border-color":"#666"})
     });
     logoSearchCon.on("mouseout",function(){
         $(this).css({"border-color":searchConBorderClor})
     });
-    //�������������ݿ򣺾۽�ʱ---���������Ϊ�գ�
+
     logoSearchCon.on("focus",function(){
         $(this).attr({placeholder:""})
     });
@@ -86,7 +86,7 @@ $(function(){
     var navCenterLi=$(".navCenter li");
     var navLine=$(".navCenter .line");
     var navLineI=$(".navCenter .line i");
-    //��껬��������ʱ������ĺ�ɫ���߸����ƶ���
+
     navCenterLi.on("mouseover",function(){
         navLine.stop(true).animate({"left":$(this).offset().left-navCenter.offset().left+12,"width":$(this).width()-24})
     });
@@ -125,6 +125,10 @@ $(function(){
     var bannerLeftConMain=$(".bannerLeftCon");
     var bannerLeftCon=$(".bannerLeftCon .sub-pannel");
     var bannerLeftAll=$(".bannerLeftAll");
+
+    var bannerLeftkaola=$(".bannerLeftCon .sub-pannel")
+    var bannerLeftlogin=$()
+
     bannerLeftLi.on("mouseenter",function(){
         bannerLeftConMain.show();
         $(this).css("background","#a90000").stop(true).animate({"paddingLeft":"8px"},300).siblings().css("background",bannerLeftLiBacColor).stop(true).animate({"paddingLeft":"0px"},300);

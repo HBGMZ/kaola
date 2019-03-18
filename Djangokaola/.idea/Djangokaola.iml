@@ -19,7 +19,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Python181AXF" />
     <orderEntry type="module" module-name="haigounet" />
-    <orderEntry type="module" module-name="ybw1812" />
+    <orderEntry type="module" module-name="django_b2c" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

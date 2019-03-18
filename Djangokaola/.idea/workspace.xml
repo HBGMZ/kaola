@@ -585,6 +585,72 @@
       <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/bookdetail.html" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/bookdetail.html" />
       <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/index.html" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/index.html" />
       <change beforePath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/newsdetail.html" afterPath="$PROJECT_DIR$/../Python1812/day08/DjangoDay08/templates/newsdetail.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/.idea/django_b2c.iml" afterPath="$PROJECT_DIR$/../django_b2c/.idea/django_b2c.iml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/../django_b2c/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/.idea/misc.xml" afterPath="$PROJECT_DIR$/../django_b2c/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/.idea/modules.xml" afterPath="$PROJECT_DIR$/../django_b2c/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../django_b2c/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/fruits_b2c.iml" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/fruits_b2c.iml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/misc.xml" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/modules.xml" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/admin.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/apps.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/models.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/models.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/tests.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/urls.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/views.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/views.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/admin.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/apps.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/models.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/models.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/tests.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/urls.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/views.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/views.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/admin.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/apps.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/models.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/models.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/tests.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/urls.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/views.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/views.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/admin.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/admin.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/apps.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/apps.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/migrations/0001_initial.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/models.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/models.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/tests.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/tests.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/urls.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/user_decorator.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/user_decorator.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/views.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/df_user/views.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/__init__.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/settings.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/settings.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/urls.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/urls.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/wsgi.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/wsgi.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/manage.py" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/manage.py" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/css/main.css" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/css/reset.css" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/css/reset.css" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/jquery-1.12.4.min.js" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/jquery-ui.min.js" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/jquery.cookie.js" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/register.js" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/register.js" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/slide.js" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/static/js/slide.js" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/base.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/base.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/base_foot.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/base_foot.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_cart/cart.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_cart/cart.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/base.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/base.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/detail.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/detail.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/index.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/index.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/list.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_goods/list.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_order/place_order.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_order/place_order.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/base_user_center.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/base_user_center.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/login.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/login.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/register.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/register.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/user_center_info.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/user_center_info.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/user_center_order.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/user_center_order.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/user_center_site.html" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/user_center_site.html" />
+      <change beforePath="$PROJECT_DIR$/../django_b2c/fruits_b2c/天天鲜项目笔记" afterPath="$PROJECT_DIR$/../django_b2c/fruits_b2c/天天鲜项目笔记" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -623,6 +689,11 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="Djangokaola: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Djangokaola@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
     </expand>
     <select />
   </component>
@@ -630,42 +701,25 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47678918">
+    <splitter split-orientation="horizontal" split-proportion="0.44781783">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="detailcopy.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1782">
-                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <state relative-caret-position="4536">
+                  <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/urls.py">
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Djangokaola/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-                  <folding>
-                    <element signature="e#0#32#0" expanded="true" />
-                    <marker date="1552754327455" expanded="true" signature="72:487" ph="..." />
-                  </folding>
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -673,19 +727,60 @@
           <file leaf-file-name="kaolaLogin.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                <state relative-caret-position="215">
+                  <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Shop.html" pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/templates/Shop.html">
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2211">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-                  <folding />
+                <state relative-caret-position="-1527">
+                  <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+                  <folding>
+                    <marker date="1552754327431" expanded="true" signature="306:3244" ph="..." />
+                    <marker date="1552754327431" expanded="true" signature="323:445" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="467:534" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="557:631" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="648:792" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="813:890" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="912:1070" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="1096:1212" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="1240:1370" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="1401:1523" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="1539:1607" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="1627:1700" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="1723:1942" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="1985:2113" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2146:2242" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2287:2325" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2344:2387" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2400:2496" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2509:2581" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2598:2811" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2832:2904" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="2923:2994" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="3025:3097" ph="{...}" />
+                    <marker date="1552754327431" expanded="true" signature="3130:3231" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -693,8 +788,8 @@
           <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="809">
-                  <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+                <state relative-caret-position="1231">
+                  <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -703,11 +798,9 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="183">
-                  <caret line="130" column="41" lean-forward="false" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="45" />
-                  <folding>
-                    <element signature="e#0#14#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="-540">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -725,7 +818,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/PycharmProjects/YBW1812" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../django_b2c" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -735,7 +828,6 @@
         <option value="$PROJECT_DIR$/../Python1812/Python181AXF/app/views.py" />
         <option value="$PROJECT_DIR$/templates/kaolaLogin.html" />
         <option value="$PROJECT_DIR$/templates/home/kaolaIndex.html" />
-        <option value="$PROJECT_DIR$/Djangokaola/urls.py" />
         <option value="$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/urls.py" />
         <option value="$USER_HOME$/Desktop/ecommerce_websit/utils/views.py" />
         <option value="$PROJECT_DIR$/static/register.html" />
@@ -748,11 +840,13 @@
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/templates/regsterKaola.html" />
         <option value="$PROJECT_DIR$/templates/regSuccess.html" />
-        <option value="$PROJECT_DIR$/app/views.py" />
-        <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/../haigounet/src/register.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/static/js/index.js" />
+        <option value="$PROJECT_DIR$/Djangokaola/urls.py" />
       </list>
     </option>
   </component>
@@ -784,7 +878,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -800,71 +894,24 @@
             <path>
               <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
               <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Djangokaola" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YBW1812" type="462c0819:PsiDirectoryNode" />
-              <item name="ybw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haigounet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haigounet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Djangokaola" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haigounet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="django_b2c" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/YBW1812" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_b2c" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -947,6 +994,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="24" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -955,9 +1003,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17871326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16282764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32724383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1007,117 +1055,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Djangokaola/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/dailyfresh/settings.example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2502">
-          <caret line="183" column="25" lean-forward="false" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.arSlide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../haigounet/src/js/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/utils/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/proDdetali/magnifyStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/place_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ecommerce_websit/static/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../haigounet/src/css/link.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Djangokaola/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="130" column="1" lean-forward="false" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/kaolaIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../haigounet/src/js/lunbo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1545">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,25 +1108,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/swiper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/swiper.css" />
     <entry file="file://$PROJECT_DIR$/Djangokaola/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2700">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1491">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-411">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2445">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-951">
           <caret line="277" column="28" lean-forward="false" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2481">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,15 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,44 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="130" column="41" lean-forward="false" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1552754327455" expanded="true" signature="72:487" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,15 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
           <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/templates/Shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2211">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,55 +1235,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <marker date="1552754327439" expanded="true" signature="688:4069" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="702:745" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="761:892" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="922:958" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="979:1016" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="1034:1135" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="1156:1251" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="1274:1312" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="1330:1457" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="1484:1614" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="1643:1854" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="1898:2000" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2016:2057" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2081:2302" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2320:2446" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2485:2522" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2562:2656" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2689:2732" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2765:2808" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2841:2884" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2917:2960" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="2984:3023" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="3046:3248" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="3271:3426" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="3455:3584" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="3610:3712" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="3728:3825" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="3843:3998" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="4018:4057" ph="{...}" />
-            <marker date="1552754327439" expanded="true" signature="4084:5459" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="4105:4232" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="4255:5121" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="4278:4322" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="4345:5023" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="4357:4569" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="4364:4565" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="4424:4557" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="5048:5114" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="5142:5451" ph="..." />
-            <marker date="1552754327439" expanded="true" signature="5150:5413" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../haigounet/src/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/YBW1812/templates/Shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python1812/Python181AXF/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1347">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="-1527">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <marker date="1552754327431" expanded="true" signature="306:3244" ph="..." />
             <marker date="1552754327431" expanded="true" signature="323:445" ph="{...}" />
@@ -1454,29 +1298,162 @@
             <marker date="1552754327431" expanded="true" signature="2923:2994" ph="{...}" />
             <marker date="1552754327431" expanded="true" signature="3025:3097" ph="{...}" />
             <marker date="1552754327431" expanded="true" signature="3130:3231" ph="{...}" />
-            <marker date="1552754327431" expanded="true" signature="3259:4603" ph="..." />
-            <marker date="1552754327431" expanded="true" signature="3280:3550" ph="..." />
-            <marker date="1552754327431" expanded="true" signature="3572:4522" ph="..." />
-            <marker date="1552754327431" expanded="true" signature="3642:4515" ph="..." />
-            <marker date="1552754327431" expanded="true" signature="4021:4503" ph="..." />
-            <marker date="1552754327431" expanded="true" signature="4356:4488" ph="..." />
-            <marker date="1552754327431" expanded="true" signature="4543:4595" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../haigounet/src/register.html">
+    <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="-540">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/天天鲜项目笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2403">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/fruits_b2c/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/df_cart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/base_foot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/templates/df_user/base_user_center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/df_order/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="237" column="0" lean-forward="true" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1231">
+          <caret line="118" column="4" lean-forward="true" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django_b2c/fruits_b2c/df_goods/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Djangokaola/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Djangokaola/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kaolaLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/detailcopy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="4536">
+          <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
           <folding />
         </state>
       </provider>

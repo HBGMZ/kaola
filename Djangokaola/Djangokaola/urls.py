@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^kaola/', include('app.urls', namespace='kaola'))
+    url(r'^/', include('app.urls', namespace='kaola'))
 ]
